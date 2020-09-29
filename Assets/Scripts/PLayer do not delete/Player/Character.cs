@@ -13,6 +13,9 @@ public abstract class Character : MonoBehaviour
 
     protected Animator  MyAnimator;
 
+    protected bool IsAttacking;
+
+    protected Coroutine attackCoroutine;
     public bool IsMoving
     {
         get
@@ -50,6 +53,11 @@ public abstract class Character : MonoBehaviour
             ActivateLayer("WalkLayer");
             MyAnimator.SetFloat("X", direction.x);
             MyAnimator.SetFloat("Y", direction.y);
+            StopAttack();
+        }
+        else if(IsAttacking)
+        {
+            ActivateLayer("AttackLayer");
         }
         else
         {
@@ -64,5 +72,16 @@ public abstract class Character : MonoBehaviour
             MyAnimator.SetLayerWeight(i, 0);
         }
         MyAnimator.SetLayerWeight(MyAnimator.GetLayerIndex(layerName), 1);
+    }
+
+    public void StopAttack()
+    {
+        if(attackCoroutine != null)
+        {
+            StopCoroutine(attackCoroutine);
+            IsAttacking = false;
+            MyAnimator.SetBool("attack", IsAttacking);
+        }
+       
     }
 }
