@@ -20,6 +20,14 @@ public class Collectables : MonoBehaviour
                 InventoryScript.MyInstance.AddItem(bag);
                 this.gameObject.SetActive(false);
             }
+
+            else if(this.gameObject.name == "Sword")
+            {
+                Weapon weapon = (Weapon)Instantiate(typeCollect);
+                InventoryScript.MyInstance.AddItem(weapon);
+                this.gameObject.SetActive(false);
+            }
+
             else
             {     
                 HealthPortion portion = (HealthPortion)Instantiate(typeCollect);

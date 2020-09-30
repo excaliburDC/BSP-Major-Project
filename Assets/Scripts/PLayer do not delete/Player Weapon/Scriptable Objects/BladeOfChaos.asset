@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1387198d113e11439d5f5d8ca75a710, type: 3}
+  m_Name: BladeOfChaos
+  m_EditorClassIdentifier: 
+  icon: {fileID: 8892083230722587702, guid: a25e2ac6ec6e8b84f9b0bf1d06cb22df, type: 3}
+  stackSize: 1
+  objType: Weapon
+  title: BladeOfChaos
+  quality: 3
+  damage: 50
+  attackRate: 0.5

@@ -14,6 +14,10 @@ public class Player : Character
     [SerializeField]
     private float maxThirst;
 
+    //for testing purposes
+    [SerializeField]
+    private List<GameObject> playerWeaponsList;
+
     private static Player instance;
     public static Player MyInstance
     {
@@ -89,6 +93,13 @@ public class Player : Character
         {
             IsAttacking = true;
             MyAnimator.SetBool("attack", IsAttacking);
+
+
+
+            //for testing purposes
+            IWeaponAttack currentWeapon = playerWeaponsList[0].GetComponent<IWeaponAttack>();
+            currentWeapon.Attack();
+
             yield return new WaitForSeconds(0.7f);
             Debug.Log("done attacking");
             StopAttack();
