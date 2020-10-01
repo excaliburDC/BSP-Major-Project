@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = " Create Weapon/Fire Weapon")]
-public class FireWeapon : Weapon, IWeaponAttack
+public class FireWeapon : Weapon
 {
-    public void Attack()
+    public override void Attack()
     {
         Debug.Log("This deals fire damage");
         Debug.Log("Attack Power" + damage);

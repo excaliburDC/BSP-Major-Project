@@ -8,4 +8,6 @@ public abstract class Weapon : Item
     public float damage;
     public float attackRate;
 
+    public virtual void Attack() { }
+
 }

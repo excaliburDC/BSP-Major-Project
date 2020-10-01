@@ -97,7 +97,7 @@ public class Player : Character
 
 
             //for testing purposes
-            IWeaponAttack currentWeapon = playerWeaponsList[0].GetComponent<IWeaponAttack>();
+            Weapon currentWeapon = (Weapon) playerWeaponsList[0].GetComponent<Collectables>().typeCollect;
             currentWeapon.Attack();
 
             yield return new WaitForSeconds(0.7f);
