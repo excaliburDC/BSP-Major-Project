@@ -3649,6 +3649,7 @@ MonoBehaviour:
   Bar2: {fileID: 1079360845}
   maxHealth: 100
   maxThirst: 50
+  playerWeaponsList: []
 --- !u!61 &805931533
 BoxCollider2D:
   m_ObjectHideFlags: 0
