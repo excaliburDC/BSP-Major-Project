@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public abstract class Character : MonoBehaviour
 {
     [SerializeField]
-    private float speed;
+    protected float speed;
 
-    private Rigidbody2D myRB;
+    protected Rigidbody2D myRB;
 
     protected Vector2 direction;
 
@@ -29,14 +30,22 @@ public abstract class Character : MonoBehaviour
     protected virtual void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
-        MyAnimator = GetComponent<Animator>();
+        if(MyAnimator != null)
+        {
+            MyAnimator = GetComponent<Animator>();
+        }
+        
     }
     protected virtual void Update()
     {
         //transform.Translate(direction * speed * Time.deltaTime);
-        HandleLayers();
+        if(MyAnimator != null)
+        {
+            HandleLayers();
+        }
+        
     }
-    private void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
 
         Move();
