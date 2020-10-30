@@ -6,26 +6,48 @@ using UnityEngine;
 public abstract class Character : MonoBehaviour
 {
     [SerializeField]
-    protected float speed;
+    private float speed;
+
+    [SerializeField]
+    private float attackRange;
 
     protected Rigidbody2D myRB;
 
-    protected Vector2 direction;
+    private Vector2 direction;
 
     protected Animator  MyAnimator;
 
+    
+
     protected bool IsAttacking;
+
+
 
     protected Coroutine attackCoroutine;
     public bool IsMoving
     {
         get
         {
-            return (direction.x != 0 || direction.y != 0);
+            return (Direction.x != 0 || Direction.y != 0);
         }
        
     }
 
+    public Vector2 Direction 
+    { 
+        get => direction; 
+        set => direction = value; 
+    }
+    public float Speed 
+    { 
+        get => speed; 
+        set => speed = value; 
+    }
+    public float AttackRange 
+    { 
+        get => attackRange; 
+        set => attackRange = value; 
+    }
 
     protected virtual void Start()
     {
@@ -52,7 +74,7 @@ public abstract class Character : MonoBehaviour
     }
     public void Move()
     {
-        myRB.velocity = direction.normalized * speed;
+        myRB.velocity = Direction.normalized * Speed;
     }
 
     protected virtual void HandleLayers()
@@ -60,8 +82,8 @@ public abstract class Character : MonoBehaviour
         if (IsMoving)
         {
             ActivateLayer("WalkLayer");
-            MyAnimator.SetFloat("X", direction.x);
-            MyAnimator.SetFloat("Y", direction.y);
+            MyAnimator.SetFloat("X", Direction.x);
+            MyAnimator.SetFloat("Y", Direction.y);
             StopAttack();
         }
         else if(IsAttacking)

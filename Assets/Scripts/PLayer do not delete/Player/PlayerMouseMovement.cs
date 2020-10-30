@@ -27,24 +27,24 @@ public class PlayerMouseMovement : Character
         Debug.Log(diff.x+"y"+diff.y);
         if (diff.y > 0 && (diff.x < 0.1 || diff.x < -0.1))
         {
-            direction += Vector2.up;
+            Direction += Vector2.up;
         }
         else if (diff.y < 0 && (diff.x < 0.1 || diff.x < -0.1))
         {
-            direction += Vector2.down;
+            Direction += Vector2.down;
         }
         else if (diff.x > 0 && (diff.y < 0.1 || diff.y < -0.1))
         {
-            direction += Vector2.right;
+            Direction += Vector2.right;
         }
         else if (diff.x < 0 && (diff.y < 0.1 || diff.y < -0.1))
         {
-            direction += Vector2.left;
+            Direction += Vector2.left;
         }
     }
     private void GetInput()
     {
-        direction = Vector2.zero;
+        Direction = Vector2.zero;
        
         if (Input.GetMouseButtonDown(0))
         {
