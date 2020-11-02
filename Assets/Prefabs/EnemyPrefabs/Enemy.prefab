@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8645827833331876281}
   - component: {fileID: 8645827833331876286}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 5884677267643454084}
   - component: {fileID: 5130849452023783289}
   - component: {fileID: 6970703012042111856}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -176,6 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.5
   attackRange: 2
+  initAggroRange: 0
 --- !u!1 &8645827833897078379
 GameObject:
   m_ObjectHideFlags: 0

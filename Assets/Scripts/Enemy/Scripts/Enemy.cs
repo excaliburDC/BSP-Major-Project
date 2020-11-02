@@ -7,7 +7,12 @@ using System;
 
 public class Enemy : NPC
 {
-    private Transform target;
+
+    [SerializeField]
+    private float attackRange;
+    [SerializeField]
+    private float initAggroRange;
+    
     
     private IEnemyState currentState;
 
@@ -15,14 +20,30 @@ public class Enemy : NPC
 
     private bool reachedPathEnd = false;
 
-    public Transform Target 
-    { 
-        get => target; 
-        set => target = value; 
+    public float AttackRange
+    {
+        get => attackRange;
+        set => attackRange = value;
     }
+
+    public float AggroRange
+    {
+        get;
+        set;
+    }
+
+    public bool InRange
+    {
+        get
+        {
+            return Vector2.Distance(transform.position, Target.position) < AggroRange;
+        }
+    }
+
 
     protected void Awake()
     {
+        AggroRange = initAggroRange;
         ChangeState(new IdleState());
     }
 
@@ -44,5 +65,17 @@ public class Enemy : NPC
         currentState = newState;
 
         currentState.EnterState(this);
+    }
+
+    public void SetTarget(Transform target)
+    {
+        if(Target == null)
+        {
+            float distance = Vector2.Distance(transform.position, target.position);
+
+            AggroRange = initAggroRange;
+            AggroRange += distance;
+            Target = target;
+        }
     }
 }

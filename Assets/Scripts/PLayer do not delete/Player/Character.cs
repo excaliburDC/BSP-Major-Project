@@ -8,10 +8,9 @@ public abstract class Character : MonoBehaviour
     [SerializeField]
     private float speed;
 
-    [SerializeField]
-    private float attackRange;
-
     protected Rigidbody2D myRB;
+
+    private Transform target;
 
     private Vector2 direction;
 
@@ -33,6 +32,12 @@ public abstract class Character : MonoBehaviour
        
     }
 
+    public Transform Target
+    {
+        get => target;
+        set => target = value;
+    }
+
     public Vector2 Direction 
     { 
         get => direction; 
@@ -43,11 +48,14 @@ public abstract class Character : MonoBehaviour
         get => speed; 
         set => speed = value; 
     }
-    public float AttackRange 
-    { 
-        get => attackRange; 
-        set => attackRange = value; 
+
+    //To be done after adding health system
+    public bool IsAlive
+    {
+        get;
+        set;
     }
+    
 
     protected virtual void Start()
     {

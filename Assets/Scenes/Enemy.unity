@@ -2829,7 +2829,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  attackRange: 0
 --- !u!212 &487326469
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3646,7 +3645,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  attackRange: 0
   Bar1: {fileID: 364669099}
   Bar2: {fileID: 1079360845}
   maxHealth: 100

@@ -35,6 +35,7 @@ public class Player : Character
 
     protected override void Start()
     {
+       
         MyHealthBar.Initialize(maxHealth, maxHealth);
         Bar2.Initialize(maxThirst, maxThirst);
         base.Start();      
@@ -105,5 +106,13 @@ public class Player : Character
             StopAttack();
         }
     }
-   
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if(col.gameObject.tag == "Enemy")
+        {
+            Physics2D.IgnoreCollision(this.gameObject.GetComponent<Collider2D>(), col.gameObject.GetComponent<Collider2D>());
+        }
+    }
+
 }
