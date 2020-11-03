@@ -19,10 +19,8 @@ public abstract class Character : MonoBehaviour
     
 
     protected bool IsAttacking;
-
-
-
     protected Coroutine attackCoroutine;
+
     public bool IsMoving
     {
         get
@@ -60,20 +58,20 @@ public abstract class Character : MonoBehaviour
     protected virtual void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
-        if(MyAnimator != null)
-        {
+        //if (MyAnimator != null)
+        //{
             MyAnimator = GetComponent<Animator>();
-        }
-        
+        //}
+
     }
     protected virtual void Update()
     {
-        //transform.Translate(direction * speed * Time.deltaTime);
-        if(MyAnimator != null)
-        {
+        transform.Translate(direction * speed * Time.deltaTime);
+        //if (MyAnimator != null)
+        //{
             HandleLayers();
-        }
-        
+        //}
+
     }
     protected virtual void FixedUpdate()
     {
