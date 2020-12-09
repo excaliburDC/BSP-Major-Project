@@ -3651,6 +3651,9 @@ MonoBehaviour:
   maxThirst: 50
   playerWeaponsList:
   - {fileID: 1203574588}
+  spellPrefab: []
+  ExitPoints: []
+  blocks: []
 --- !u!61 &805931533
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -1,0 +1,4423 @@
+fileFormatVersion: 2
+guid: ff8c1e4373272b24680a1f0e67c92d97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5812637053412045093
+    second: ZombieWithoutAttacks_0
+  - first:
+      213: 8533466459048075616
+    second: ZombieWithoutAttacks_1
+  - first:
+      213: -5449596630652321411
+    second: ZombieWithoutAttacks_2
+  - first:
+      213: -1895487546799932449
+    second: ZombieWithoutAttacks_3
+  - first:
+      213: 7326061602288988858
+    second: ZombieWithoutAttacks_4
+  - first:
+      213: -5593380901865608946
+    second: ZombieWithoutAttacks_5
+  - first:
+      213: 1261681876957951019
+    second: ZombieWithoutAttacks_6
+  - first:
+      213: 8700024879179540256
+    second: ZombieWithoutAttacks_7
+  - first:
+      213: 8878438026851788124
+    second: ZombieWithoutAttacks_8
+  - first:
+      213: -7596547420388197262
+    second: ZombieWithoutAttacks_9
+  - first:
+      213: 7762287473322578110
+    second: ZombieWithoutAttacks_10
+  - first:
+      213: 4459850978584461412
+    second: ZombieWithoutAttacks_11
+  - first:
+      213: 7981192961274109737
+    second: ZombieWithoutAttacks_12
+  - first:
+      213: -8994280637228705870
+    second: ZombieWithoutAttacks_13
+  - first:
+      213: 8790303650820823248
+    second: ZombieWithoutAttacks_14
+  - first:
+      213: -7120454034082919356
+    second: ZombieWithoutAttacks_15
+  - first:
+      213: 4595128402483152815
+    second: ZombieWithoutAttacks_16
+  - first:
+      213: 4543305949432648653
+    second: ZombieWithoutAttacks_17
+  - first:
+      213: -1841109720811616480
+    second: ZombieWithoutAttacks_18
+  - first:
+      213: 8053272118203103929
+    second: ZombieWithoutAttacks_19
+  - first:
+      213: -6604679717300145135
+    second: ZombieWithoutAttacks_20
+  - first:
+      213: -943104116742903749
+    second: ZombieWithoutAttacks_21
+  - first:
+      213: 2633884895846208422
+    second: ZombieWithoutAttacks_22
+  - first:
+      213: 422464286417552838
+    second: ZombieWithoutAttacks_23
+  - first:
+      213: -2061798914866089954
+    second: ZombieWithoutAttacks_24
+  - first:
+      213: 1357074694067018579
+    second: ZombieWithoutAttacks_25
+  - first:
+      213: 4176367474263905325
+    second: ZombieWithoutAttacks_26
+  - first:
+      213: -625797708386112142
+    second: ZombieWithoutAttacks_27
+  - first:
+      213: 5118817148166724207
+    second: ZombieWithoutAttacks_28
+  - first:
+      213: -4605766941642114548
+    second: ZombieWithoutAttacks_29
+  - first:
+      213: -5798209330647375839
+    second: ZombieWithoutAttacks_30
+  - first:
+      213: 2600117918325487716
+    second: ZombieWithoutAttacks_31
+  - first:
+      213: -5378911734312479096
+    second: ZombieWithoutAttacks_32
+  - first:
+      213: 9027332031299240133
+    second: ZombieWithoutAttacks_33
+  - first:
+      213: 2814082497323987865
+    second: ZombieWithoutAttacks_34
+  - first:
+      213: 2354197948317152167
+    second: ZombieWithoutAttacks_35
+  - first:
+      213: 1927881175092171629
+    second: ZombieWithoutAttacks_36
+  - first:
+      213: 6150681678480406366
+    second: ZombieWithoutAttacks_37
+  - first:
+      213: -4848668906619260130
+    second: ZombieWithoutAttacks_38
+  - first:
+      213: -7045524144066884123
+    second: ZombieWithoutAttacks_39
+  - first:
+      213: -4516844930327423917
+    second: ZombieWithoutAttacks_40
+  - first:
+      213: 4456766807688599712
+    second: ZombieWithoutAttacks_41
+  - first:
+      213: 1044447171525058600
+    second: ZombieWithoutAttacks_42
+  - first:
+      213: -293159469860552170
+    second: ZombieWithoutAttacks_43
+  - first:
+      213: -3946600474482059725
+    second: ZombieWithoutAttacks_44
+  - first:
+      213: -5910150299797290390
+    second: ZombieWithoutAttacks_45
+  - first:
+      213: -6609695606669176122
+    second: ZombieWithoutAttacks_46
+  - first:
+      213: -681589379836226067
+    second: ZombieWithoutAttacks_47
+  - first:
+      213: -7399412173362098089
+    second: ZombieWithoutAttacks_48
+  - first:
+      213: -712515206343685975
+    second: ZombieWithoutAttacks_49
+  - first:
+      213: -3876068612261762491
+    second: ZombieWithoutAttacks_50
+  - first:
+      213: -8908236098885484185
+    second: ZombieWithoutAttacks_51
+  - first:
+      213: 6113084700460298526
+    second: ZombieWithoutAttacks_52
+  - first:
+      213: -5501925726895218866
+    second: ZombieWithoutAttacks_53
+  - first:
+      213: -8138546931243090674
+    second: ZombieWithoutAttacks_54
+  - first:
+      213: -3096436248664716877
+    second: ZombieWithoutAttacks_55
+  - first:
+      213: -7368868577410330577
+    second: ZombieWithoutAttacks_56
+  - first:
+      213: 4788531795918514785
+    second: ZombieWithoutAttacks_57
+  - first:
+      213: -2950202311208459706
+    second: ZombieWithoutAttacks_58
+  - first:
+      213: -7977874180187460395
+    second: ZombieWithoutAttacks_59
+  - first:
+      213: -3162811711000707301
+    second: ZombieWithoutAttacks_60
+  - first:
+      213: -1505574107585504077
+    second: ZombieWithoutAttacks_61
+  - first:
+      213: 1088131800790906151
+    second: ZombieWithoutAttacks_62
+  - first:
+      213: 5870307008959713134
+    second: ZombieWithoutAttacks_63
+  - first:
+      213: -1988318731551749546
+    second: ZombieWithoutAttacks_64
+  - first:
+      213: -7689434583307994046
+    second: ZombieWithoutAttacks_65
+  - first:
+      213: -2659421398066337072
+    second: ZombieWithoutAttacks_66
+  - first:
+      213: 5270925252558823347
+    second: ZombieWithoutAttacks_67
+  - first:
+      213: -84474208357566295
+    second: ZombieWithoutAttacks_68
+  - first:
+      213: 7276205477985246558
+    second: ZombieWithoutAttacks_69
+  - first:
+      213: -6469232998542460018
+    second: ZombieWithoutAttacks_70
+  - first:
+      213: 7119867822492744181
+    second: ZombieWithoutAttacks_71
+  - first:
+      213: -2062929805672729805
+    second: ZombieWithoutAttacks_72
+  - first:
+      213: -6336954378098819168
+    second: ZombieWithoutAttacks_73
+  - first:
+      213: -5853666498439831116
+    second: ZombieWithoutAttacks_74
+  - first:
+      213: 4127209481720678801
+    second: ZombieWithoutAttacks_75
+  - first:
+      213: 2630364734986511253
+    second: ZombieWithoutAttacks_76
+  - first:
+      213: 1355697711931728989
+    second: ZombieWithoutAttacks_77
+  - first:
+      213: 5816814987204290316
+    second: ZombieWithoutAttacks_78
+  - first:
+      213: -8371738319213579880
+    second: ZombieWithoutAttacks_79
+  - first:
+      213: -2042015568077930950
+    second: ZombieWithoutAttacks_80
+  - first:
+      213: -650792018178698528
+    second: ZombieWithoutAttacks_81
+  - first:
+      213: -6185446987672242036
+    second: ZombieWithoutAttacks_82
+  - first:
+      213: -1934615136800133805
+    second: ZombieWithoutAttacks_83
+  - first:
+      213: 1980808435632646473
+    second: ZombieWithoutAttacks_84
+  - first:
+      213: 7687355750087859215
+    second: ZombieWithoutAttacks_85
+  - first:
+      213: 8354970842096056160
+    second: ZombieWithoutAttacks_86
+  - first:
+      213: -5048852474138569018
+    second: ZombieWithoutAttacks_87
+  - first:
+      213: -6808210243987261648
+    second: ZombieWithoutAttacks_88
+  - first:
+      213: 7980839741185883991
+    second: ZombieWithoutAttacks_89
+  - first:
+      213: -2114044660134410022
+    second: ZombieWithoutAttacks_90
+  - first:
+      213: -8020527186305969859
+    second: ZombieWithoutAttacks_91
+  - first:
+      213: 1888718635659617804
+    second: ZombieWithoutAttacks_92
+  - first:
+      213: -8883032981126843825
+    second: ZombieWithoutAttacks_93
+  - first:
+      213: -2122699930833333073
+    second: ZombieWithoutAttacks_94
+  - first:
+      213: -7197654366007227785
+    second: ZombieWithoutAttacks_95
+  - first:
+      213: 2071038377182929708
+    second: ZombieWithoutAttacks_96
+  - first:
+      213: 319515767857548968
+    second: ZombieWithoutAttacks_97
+  - first:
+      213: -1940168053868215221
+    second: ZombieWithoutAttacks_98
+  - first:
+      213: 6818298232946583673
+    second: ZombieWithoutAttacks_99
+  - first:
+      213: 812985120684202992
+    second: ZombieWithoutAttacks_100
+  - first:
+      213: 7718014496332967687
+    second: ZombieWithoutAttacks_101
+  - first:
+      213: 4600177798081284367
+    second: ZombieWithoutAttacks_102
+  - first:
+      213: -856534427010945564
+    second: ZombieWithoutAttacks_103
+  - first:
+      213: 1906861561150537339
+    second: ZombieWithoutAttacks_104
+  - first:
+      213: -3060174159709441292
+    second: ZombieWithoutAttacks_105
+  - first:
+      213: -2001674897535787389
+    second: ZombieWithoutAttacks_106
+  - first:
+      213: 3542340688710789673
+    second: ZombieWithoutAttacks_107
+  - first:
+      213: -5730294148259209088
+    second: ZombieWithoutAttacks_108
+  - first:
+      213: 4197133121307501142
+    second: ZombieWithoutAttacks_109
+  - first:
+      213: -5767146229199856961
+    second: ZombieWithoutAttacks_110
+  - first:
+      213: -5221590182785090858
+    second: ZombieWithoutAttacks_111
+  - first:
+      213: -7634060787652475660
+    second: ZombieWithoutAttacks_112
+  - first:
+      213: 4069532418401710263
+    second: ZombieWithoutAttacks_113
+  - first:
+      213: -7879723974928809757
+    second: ZombieWithoutAttacks_114
+  - first:
+      213: -1811961685602020045
+    second: ZombieWithoutAttacks_115
+  - first:
+      213: 8251611691455692966
+    second: ZombieWithoutAttacks_116
+  - first:
+      213: -907116594972827281
+    second: ZombieWithoutAttacks_117
+  - first:
+      213: -3874720859080724311
+    second: ZombieWithoutAttacks_118
+  - first:
+      213: 1267605944304070043
+    second: ZombieWithoutAttacks_119
+  - first:
+      213: -2184265603116646341
+    second: ZombieWithoutAttacks_120
+  - first:
+      213: 4206926575864935687
+    second: ZombieWithoutAttacks_121
+  - first:
+      213: 6811820918879264855
+    second: ZombieWithoutAttacks_122
+  - first:
+      213: 8847441248285187049
+    second: ZombieWithoutAttacks_123
+  - first:
+      213: 4530281369124587571
+    second: ZombieWithoutAttacks_124
+  - first:
+      213: 326083612174439594
+    second: ZombieWithoutAttacks_125
+  - first:
+      213: 898449314561475301
+    second: ZombieWithoutAttacks_126
+  - first:
+      213: 4013670062850565521
+    second: ZombieWithoutAttacks_127
+  - first:
+      213: -2527910958880927280
+    second: ZombieWithoutAttacks_128
+  - first:
+      213: -8580498734235179482
+    second: ZombieWithoutAttacks_129
+  - first:
+      213: -2030719684854476786
+    second: ZombieWithoutAttacks_130
+  - first:
+      213: 4528470193623255287
+    second: ZombieWithoutAttacks_131
+  - first:
+      213: 3884004706755892085
+    second: ZombieWithoutAttacks_132
+  - first:
+      213: -1138894083888548934
+    second: ZombieWithoutAttacks_133
+  - first:
+      213: 1904855382171637568
+    second: ZombieWithoutAttacks_134
+  - first:
+      213: 4822212969381458334
+    second: ZombieWithoutAttacks_135
+  - first:
+      213: -7143348296762430918
+    second: ZombieWithoutAttacks_136
+  - first:
+      213: -3631587554440104932
+    second: ZombieWithoutAttacks_137
+  - first:
+      213: 1060504163805191827
+    second: ZombieWithoutAttacks_138
+  - first:
+      213: -1142716629543960000
+    second: ZombieWithoutAttacks_139
+  - first:
+      213: 4232693091395056331
+    second: ZombieWithoutAttacks_140
+  - first:
+      213: -4948603517696503554
+    second: ZombieWithoutAttacks_141
+  - first:
+      213: -6231288203032428859
+    second: ZombieWithoutAttacks_142
+  - first:
+      213: 3437054788841820331
+    second: ZombieWithoutAttacks_143
+  - first:
+      213: 3643522602511667903
+    second: ZombieWithoutAttacks_144
+  - first:
+      213: 8643250091971765569
+    second: ZombieWithoutAttacks_145
+  - first:
+      213: -3635979024510324280
+    second: ZombieWithoutAttacks_146
+  - first:
+      213: 1363667903526186204
+    second: ZombieWithoutAttacks_147
+  - first:
+      213: -5668228316416070920
+    second: ZombieWithoutAttacks_148
+  - first:
+      213: 2064997723519629611
+    second: ZombieWithoutAttacks_149
+  - first:
+      213: 760956784452091092
+    second: ZombieWithoutAttacks_150
+  - first:
+      213: -3401646974568985966
+    second: ZombieWithoutAttacks_151
+  - first:
+      213: 3754197105146019106
+    second: ZombieWithoutAttacks_152
+  - first:
+      213: -5431602004351528557
+    second: ZombieWithoutAttacks_153
+  - first:
+      213: 1341367369441366001
+    second: ZombieWithoutAttacks_154
+  - first:
+      213: 2104800735479426622
+    second: ZombieWithoutAttacks_155
+  - first:
+      213: -1160105241296942180
+    second: ZombieWithoutAttacks_156
+  - first:
+      213: 663260675936564038
+    second: ZombieWithoutAttacks_157
+  - first:
+      213: 3165054638654151215
+    second: ZombieWithoutAttacks_158
+  - first:
+      213: -1975889811199670012
+    second: ZombieWithoutAttacks_159
+  - first:
+      213: -7092875213183806338
+    second: ZombieWithoutAttacks_160
+  - first:
+      213: -2321195257467134472
+    second: ZombieWithoutAttacks_161
+  - first:
+      213: 3896623265981148
+    second: ZombieWithoutAttacks_162
+  - first:
+      213: 2328298074455975411
+    second: ZombieWithoutAttacks_163
+  - first:
+      213: 6348592366829036839
+    second: ZombieWithoutAttacks_164
+  - first:
+      213: 6792538181015178373
+    second: ZombieWithoutAttacks_165
+  - first:
+      213: 6495512187548195482
+    second: ZombieWithoutAttacks_166
+  - first:
+      213: 7199372988204306628
+    second: ZombieWithoutAttacks_167
+  - first:
+      213: 4321303294154657571
+    second: ZombieWithoutAttacks_168
+  - first:
+      213: 1880256110520120698
+    second: ZombieWithoutAttacks_169
+  - first:
+      213: 8394462605379346790
+    second: ZombieWithoutAttacks_170
+  - first:
+      213: -7505778859452371464
+    second: ZombieWithoutAttacks_171
+  - first:
+      213: 5853032620352297990
+    second: ZombieWithoutAttacks_172
+  - first:
+      213: 8894902104927741285
+    second: ZombieWithoutAttacks_173
+  - first:
+      213: -6563255051371594303
+    second: ZombieWithoutAttacks_174
+  - first:
+      213: -4921155586094544358
+    second: ZombieWithoutAttacks_175
+  - first:
+      213: 111259545589544279
+    second: ZombieWithoutAttacks_176
+  - first:
+      213: -2553812881546244524
+    second: ZombieWithoutAttacks_177
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80c7b63087c4e549917589bd92547e1
+      internalID: 5812637053412045093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b9784c5092f814ea0d75ac59da0ec3
+      internalID: 8533466459048075616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1c9efe7a6a21247ab553f32900dce1
+      internalID: -5449596630652321411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8626eff1b6477324c83b5ad4f20e144e
+      internalID: -1895487546799932449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6294cdbf96adc6d48bec1774de0733ca
+      internalID: 7326061602288988858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5869f6c7b50e446b148a4d020315b9
+      internalID: -5593380901865608946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1288
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9542bed53a3ef6a45b15914e4d1a181b
+      internalID: 1261681876957951019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cda3568b3b23b4fb85e3a9b3eb6d20
+      internalID: 8700024879179540256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a9ac9f6746f314cb53889977a129f4
+      internalID: 8878438026851788124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e033aa7c348cd4c82d6c6249c6738b
+      internalID: -7596547420388197262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42630057562e704a90e9c75306b76ea
+      internalID: 7762287473322578110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd837dbc3cb40c4ea2d1d088782dc31
+      internalID: 4459850978584461412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2770ee0c95950cb4d8f2f4dc90c34353
+      internalID: 7981192961274109737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1224
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcce4d60fcf3ba4fb72378c98396379
+      internalID: -8994280637228705870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e43142a152361d458951c6b167abdb7
+      internalID: 8790303650820823248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d472f4c3700ce446994f51a3cc2144c
+      internalID: -7120454034082919356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32853140544bc0c4a94ea3a71ac361b1
+      internalID: 4595128402483152815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7779efb742afc784a946babdd68e9de2
+      internalID: 4543305949432648653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0058d208116f8be4f99b3769f4f31f4c
+      internalID: -1841109720811616480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6564f428c157ed144a8e4a44829c1772
+      internalID: 8053272118203103929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1160
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629419651335cc348820d119b8e31d22
+      internalID: -6604679717300145135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1096
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64434bd4f5eaebd448a28f0acc837e5c
+      internalID: -943104116742903749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1096
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ff60d744ca3044fbbeb3cbc0aafcdb
+      internalID: 2633884895846208422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1096
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56749d0dce828b488fee3c7edc40572
+      internalID: 422464286417552838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1096
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f3e8df647a53f469a1efa19fdfbfb5
+      internalID: -2061798914866089954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1096
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1068c93b4303e04ebd9a1fad5322f4b
+      internalID: 1357074694067018579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1096
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40539956183e20047a89e2465d44bd0c
+      internalID: 4176367474263905325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1096
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfe4287798342c4ba57a374d41a044a
+      internalID: -625797708386112142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4674af594046bb749b8fc3d868724d95
+      internalID: 5118817148166724207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb211e7b85e9175479278a87ea698c7e
+      internalID: -4605766941642114548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8433853178b50d04f9ea55db139b6f88
+      internalID: -5798209330647375839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d4f90165a8f5740915522fcb4371af
+      internalID: 2600117918325487716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3803f63b979f4be4aaf73ab73822eb6f
+      internalID: -5378911734312479096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fe335b91dbb4348801e9c80bce3a9f
+      internalID: 9027332031299240133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d48b8bd7056ac4aa8288dcf3b25f77
+      internalID: 2814082497323987865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_35
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7787d8e171e02cc4b88c5bea889ee81a
+      internalID: 2354197948317152167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 968
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c983da1f743e3a2459b5e6d3d1d0dbb7
+      internalID: 1927881175092171629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 968
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0543e4e5c0b490b47a2858a31a270b01
+      internalID: 6150681678480406366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 968
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e94c999e669014190e17de0f339f65
+      internalID: -4848668906619260130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 968
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cbf1d015132814389a8889d0706881
+      internalID: -7045524144066884123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 968
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cb2f6383124a24d8ab08563c8dec5b
+      internalID: -4516844930327423917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 968
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20a19cec53acb146b8d64446cf73732
+      internalID: 4456766807688599712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 968
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0b61041e6ea9f4da262b16054a6a1e
+      internalID: 1044447171525058600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 968
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a428a3f69be0b3498a0e316de302a6e
+      internalID: -293159469860552170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c69ab86549d56643bdd9a92355ea58a
+      internalID: -3946600474482059725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 904
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9fbd907643cd9478b89a867f4cc89b
+      internalID: -5910150299797290390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 904
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3ee896ed9e65a4789d09ec86981fdc
+      internalID: -6609695606669176122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 904
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789c1de024a4fe34991a6d22e271c97a
+      internalID: -681589379836226067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 904
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c523534994b5eac448eda0d3048f9240
+      internalID: -7399412173362098089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 904
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d37634c66a035b4e8c91f77db04ba49
+      internalID: -712515206343685975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 904
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ac9cf2327f4cf428e3b0d887b1312d
+      internalID: -3876068612261762491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 904
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e22d5449a595be49b07024d5bfd07fe
+      internalID: -8908236098885484185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6166d22f5e6d4874c846497281c29c5c
+      internalID: 6113084700460298526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 840
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fe7d7b43f1cfc46892d1ddabfd1dde
+      internalID: -5501925726895218866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 840
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4670824ed050e6847b6388570960f0c1
+      internalID: -8138546931243090674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 840
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc2a6bddaa02094aab0f2918dcdbf1f
+      internalID: -3096436248664716877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 840
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1361ba1a81da109478d7951fe13c0d9b
+      internalID: -7368868577410330577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 840
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fed2734975a394a87a5c4d8db8a01f
+      internalID: 4788531795918514785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 840
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba42dd401d907846a6e7656cbe73364
+      internalID: -2950202311208459706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 840
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c6dbfbfad28294ebe5e5daa2529ab8
+      internalID: -7977874180187460395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 776
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a1bd13ba96add42b5f6a799c7af3f7
+      internalID: -3162811711000707301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 776
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407d1990a1bb35c4a961e2cba90d06eb
+      internalID: -1505574107585504077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 776
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b43ec624f9122b41a408bf4452e066c
+      internalID: 1088131800790906151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 776
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bdb45fc44e82241ab811ab91b08cea
+      internalID: 5870307008959713134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 776
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553dc6093a2f9a24994852eae7b75632
+      internalID: -1988318731551749546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 776
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2f117b470aca146ba57a316ade7434
+      internalID: -7689434583307994046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 776
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0864b13a72c6d24e81963c194cb0c70
+      internalID: -2659421398066337072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 776
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377f525b019df4c47aec93733d8dfdb8
+      internalID: 5270925252558823347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 776
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa63f933746d2f4e9aff1d0c6b64649
+      internalID: -84474208357566295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661890634fc759a4da0b9e5dd189f2ed
+      internalID: 7276205477985246558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994e1a4f6358b174fb85f62c3b7cd73c
+      internalID: -6469232998542460018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95cfb838729e6e45aedfa075bd4b253
+      internalID: 7119867822492744181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b037fb2103aa7054abaf370a93307956
+      internalID: -2062929805672729805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa8527288fd8bb4f9412f2dcdbda7a0
+      internalID: -6336954378098819168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f607f5aed9c7c40b46b78801a3d7c1
+      internalID: -5853666498439831116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700a2db83bcadc14eb37e837f6fb3fbc
+      internalID: 4127209481720678801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163d1f8097e611f40a4654994c89e359
+      internalID: 2630364734986511253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 712
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df032eb6c91398c42ba25e7267ea088a
+      internalID: 1355697711931728989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 648
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d9c2a971d574f4b864fa778407a5b7
+      internalID: 5816814987204290316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 648
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39da57122d9b364aa98e0c023a4c7bb
+      internalID: -8371738319213579880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 648
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec124ab30e4a7c429e21e6a58802a1f
+      internalID: -2042015568077930950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 648
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a2c7780544ef343b66497573b603aa
+      internalID: -650792018178698528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 648
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01760abd3ba8c64db3d729d08fed0e0
+      internalID: -6185446987672242036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 648
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddf8de2f3342ae41b32db5bebb17fef
+      internalID: -1934615136800133805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 648
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0182b74ba44734984484ad5d1038c1
+      internalID: 1980808435632646473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_85
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 648
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d046b54f04440408b8042088cad49e
+      internalID: 7687355750087859215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 648
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1ef0cdea7f7e540af17a0136b857b2
+      internalID: 8354970842096056160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd6201036f4a5b45bb2949b2607ca9e
+      internalID: -5048852474138569018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3c91fc05e606249bf70698b5c75b46
+      internalID: -6808210243987261648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a49d83264a1ceb4caee0e74e5ed07ce
+      internalID: 7980839741185883991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa210f53a1d200d46a9d5899157cdf77
+      internalID: -2114044660134410022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5971680344aee4284bc0c51333344d
+      internalID: -8020527186305969859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dd5ee6b07aaee488b600cf1a299257
+      internalID: 1888718635659617804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5004b2182b3b4f941b851f7354398867
+      internalID: -8883032981126843825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb38b55407c87b428e5afef1ca6a3f6
+      internalID: -2122699930833333073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_95
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2070dfb0a921fa0489b96c45baa63303
+      internalID: -7197654366007227785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b20354eaa9f8254e86f73f21fe6476f
+      internalID: 2071038377182929708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c61798851094c4895acf12f22b1996
+      internalID: 319515767857548968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2870f8b377e530049ac214cf1c205ab0
+      internalID: -1940168053868215221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0b199a90aaf824cbc7172b8460c774
+      internalID: 6818298232946583673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28379e619d968442a079e33d66d2e58
+      internalID: 812985120684202992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba78b4dfbb83ba4d905c62fd8d0dc82
+      internalID: 7718014496332967687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0877924ec5add034f86c47a67b7ac1e5
+      internalID: 4600177798081284367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5821940aa8d5d4a9e4179d84e026fd
+      internalID: -856534427010945564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5fc16a8823cb24ca182d6c5f7f0cac
+      internalID: 1906861561150537339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_105
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d194c1fe9a1f74c4cab3e0cdc7596a33
+      internalID: -3060174159709441292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51a7f640f0ef8745bed9e13a764b90b
+      internalID: -2001674897535787389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_107
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e00769982c3ce48968de475ff8fce2
+      internalID: 3542340688710789673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0644069fafc413f40bdc3f09ac4723fd
+      internalID: -5730294148259209088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d985f390cff07b4bac4bc094d7585af
+      internalID: 4197133121307501142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3495bbae99d7a449cd7ad2969a5209
+      internalID: -5767146229199856961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb54808dc518e846acda409c654c7a3
+      internalID: -5221590182785090858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_112
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c7ecfab1873f9478fa9fcab9a9bcc0
+      internalID: -7634060787652475660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_113
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3eb09a66a0e5f243ae7263ec4429053
+      internalID: 4069532418401710263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cd80a51d48b2145ab1214bb1dfe1f3
+      internalID: -7879723974928809757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_115
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9cacf447bcc0b4fab77d5de8a203c8
+      internalID: -1811961685602020045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413ba10e630092a4c828748a60ccde2a
+      internalID: 8251611691455692966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a5b2c177423114eac7822412be7459
+      internalID: -907116594972827281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_118
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cd01644840cf6419c8df620b80a4bf
+      internalID: -3874720859080724311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_119
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18040c0c885d2d418de542aba914abc
+      internalID: 1267605944304070043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b0689df31dc554b90b8588eead0475
+      internalID: -2184265603116646341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8c86693e6a9844f93afdc9ed612c0f
+      internalID: 4206926575864935687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_122
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dcc2e5d5555644281f377158f247a8
+      internalID: 6811820918879264855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_123
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006e0925d5999a34cb2c1c3f985cf553
+      internalID: 8847441248285187049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03974e01d256d754a8190f01dd1a1b34
+      internalID: 4530281369124587571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_125
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52f14bd1636f554ba263e02e545aeeb
+      internalID: 326083612174439594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_126
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4902befd1eed27d4a95d46cc7d760109
+      internalID: 898449314561475301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_127
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c800f4790a8a490468e87ef09629983d
+      internalID: 4013670062850565521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_128
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d9f8b24364a4146b042e187797d2f7
+      internalID: -2527910958880927280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_129
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7abaaf18031c464d99d2ec68d563b03
+      internalID: -8580498734235179482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_130
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9254fa44a33c8c4187728061118bd24
+      internalID: -2030719684854476786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_131
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3bc0f27a2554d4cad11fcbfdd2df9b
+      internalID: 4528470193623255287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_132
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccdf873ea1534148aea6a41211d0d01
+      internalID: 3884004706755892085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c664598732bb984d983dc71d3591be4
+      internalID: -1138894083888548934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_134
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c05dbfee420814798dfeb89310b072
+      internalID: 1904855382171637568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_135
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51984eafb474ada4081fcffa3476857c
+      internalID: 4822212969381458334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad4d1cf4b1fcfe4fb3d44aaf1ba9ad0
+      internalID: -7143348296762430918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_137
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c785b0f5a0d35284fb96baadfed81d85
+      internalID: -3631587554440104932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099d8824884281541836c4a8705434ea
+      internalID: 1060504163805191827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_139
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0865980e3ba8e40bbf31c3cee17f85
+      internalID: -1142716629543960000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_140
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a687a914c78d74d965c41458630bf4
+      internalID: 4232693091395056331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_141
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0b967453d2af74e9f4544e89dc9525
+      internalID: -4948603517696503554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_142
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1b39b41f7777347b0f9439a5a386c1
+      internalID: -6231288203032428859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_143
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ed8aceb7639404da8caabea431643e
+      internalID: 3437054788841820331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_144
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca81a30978c2ff4895dcf8a97c034dc
+      internalID: 3643522602511667903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_145
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100dfaf4527482a47992d780bb07da7d
+      internalID: 8643250091971765569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cc1dd8f84bfb642a7f380948aa3dda
+      internalID: -3635979024510324280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f3af456635d324bb857ac74d8c4057
+      internalID: 1363667903526186204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972578374fb7e994c913180e516f23cf
+      internalID: -5668228316416070920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdb4c67e37eec043bf7666e69389af1
+      internalID: 2064997723519629611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_150
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4164d66abae0940bedc50ab4516c12
+      internalID: 760956784452091092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_151
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81ce03dd9fad73418545d20080a3eca
+      internalID: -3401646974568985966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_152
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765fc7ce133a13747bf428e26428ee6e
+      internalID: 3754197105146019106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_153
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450c9c88a2da8c1409e20ef5fe1dde03
+      internalID: -5431602004351528557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_154
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab4e6abd4a12b24b961b4648d767266
+      internalID: 1341367369441366001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_155
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc8394fb7a2f624da500609a7337394
+      internalID: 2104800735479426622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_156
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb436197323079c4f9e0d6f36f00c0aa
+      internalID: -1160105241296942180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_157
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5457cf7dbfc1354ab3bebf71f2b3ac2
+      internalID: 663260675936564038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_158
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b371a930e9e80104c8d62290c76dc28f
+      internalID: 3165054638654151215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ca4c1d6c3533e42ac210972ce038aa
+      internalID: -1975889811199670012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_160
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1632cd96bc776474c867242b84c451f7
+      internalID: -7092875213183806338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e288c321c30fa45b54018be98e46ad
+      internalID: -2321195257467134472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14311c9b68956904fa9389e883b742b8
+      internalID: 3896623265981148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_163
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd322fd4dca4d5f48832d14816fc53f3
+      internalID: 2328298074455975411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_164
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b7e31fc99561a4daece339f5718a71
+      internalID: 6348592366829036839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_165
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bb83f01482bb54ab447cb5754365b5
+      internalID: 6792538181015178373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_166
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbaf850cf7d1854d91f2c3df3e7c5e3
+      internalID: 6495512187548195482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_167
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1c1085201c7244ea25e5c583bed132
+      internalID: 7199372988204306628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_168
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8f1c92152003a498ae74a9dc7a64e1
+      internalID: 4321303294154657571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_169
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e993bf61fc1e37e4781da21ab37d33ac
+      internalID: 1880256110520120698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_170
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa810ff83244e94d8ee039188cee677
+      internalID: 8394462605379346790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_171
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 72
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3529dcca3911efd4db84c37d077f6a90
+      internalID: -7505778859452371464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f679e3ce7cfceac4ea19f0d636558e26
+      internalID: 5853032620352297990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 8
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f869d52de4766b489f5553677307b28
+      internalID: 8894902104927741285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_174
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 8
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cf134101350db45a5725b385d9a0f9
+      internalID: -6563255051371594303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_175
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 8
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120bb5b3ff433cc4883dbfc88bdd1872
+      internalID: -4921155586094544358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_176
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 8
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a072a3f85605abf458971c2954fc81a6
+      internalID: 111259545589544279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombieWithoutAttacks_177
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 8
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f980cd3dd6431e4b85dc86322868a30
+      internalID: -2553812881546244524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
