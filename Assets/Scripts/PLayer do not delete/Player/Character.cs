@@ -14,11 +14,15 @@ public abstract class Character : MonoBehaviour
 
     private Vector2 direction;
 
-    protected Animator  MyAnimator;
+    public Animator  MyAnimator
+    {
+        get;
+        set;
+    }
 
     
 
-    protected bool IsAttacking;
+    //protected bool IsAttacking;
     protected Coroutine attackCoroutine;
 
     public bool IsMoving
@@ -45,6 +49,12 @@ public abstract class Character : MonoBehaviour
     { 
         get => speed; 
         set => speed = value; 
+    }
+
+    public bool IsAttacking
+    {
+        get;
+        set;
     }
 
     //To be done after adding health system

@@ -1,9 +1,11 @@
-﻿
+﻿using System.Collections;
 using UnityEngine;
 
 public class AttackState : IEnemyState
 {
     private Enemy parent;
+
+    private float attackCoolDown = 3f;
 
     public void EnterState(Enemy parent)
     {
@@ -18,6 +20,13 @@ public class AttackState : IEnemyState
     public void UpdateState()
     {
         Debug.Log("Attacking");
+
+        if (parent.AttackTime>=attackCoolDown && !parent.IsAttacking)
+        {
+            parent.AttackTime = 0;
+
+            parent.StartCoroutine(Attack());
+        }
 
         if (parent.Target != null)
         {
@@ -37,5 +46,16 @@ public class AttackState : IEnemyState
         {
             parent.ChangeState(new IdleState());
         }
+    }
+
+    public IEnumerator Attack()
+    {
+        parent.IsAttacking = true;
+
+        parent.MyAnimator.SetTrigger("attack");
+
+        yield return new WaitForSeconds(parent.MyAnimator.GetCurrentAnimatorStateInfo(2).length);
+
+        parent.IsAttacking = false;
     }
 }

@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Pathfinding;
 using System;
 
 
@@ -12,6 +11,8 @@ public class Enemy : NPC
     private float attackRange;
     [SerializeField]
     private float initAggroRange;
+    [SerializeField]
+    private float attackTime;
     
     
     private IEnemyState currentState;
@@ -24,6 +25,12 @@ public class Enemy : NPC
     {
         get => attackRange;
         set => attackRange = value;
+    }
+
+    public float AttackTime 
+    { 
+        get => attackTime; 
+        set => attackTime = value; 
     }
 
     public float AggroRange
@@ -40,6 +47,7 @@ public class Enemy : NPC
         }
     }
 
+    
 
     protected void Awake()
     {
@@ -51,6 +59,9 @@ public class Enemy : NPC
     protected override void Update()
     {
         base.Update();
+
+        if (!IsAttacking)
+            AttackTime += Time.deltaTime;
 
         currentState.UpdateState();
     }
