@@ -89,4 +89,12 @@ public class Enemy : NPC
             Target = target;
         }
     }
+
+    public void ResetEnemy()
+    {
+        this.Target = null;
+        this.AggroRange = initAggroRange;
+
+        //reset health values
+    }
 }

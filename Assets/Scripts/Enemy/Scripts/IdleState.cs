@@ -7,6 +7,8 @@ public class IdleState : IEnemyState
     public void EnterState(Enemy parent)
     {
         this.parent = parent;
+        
+       // this.parent.ResetEnemy();
     }
 
     public void ExitState()

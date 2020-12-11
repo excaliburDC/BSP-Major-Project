@@ -33,6 +33,11 @@ public class ChaseState : IEnemyState
             }
         }
 
+        //if(!parent.InRange)
+        //{
+        //    parent.ChangeState(new IdleState());
+        //}
+
         else
         {
             parent.ChangeState(new IdleState());
