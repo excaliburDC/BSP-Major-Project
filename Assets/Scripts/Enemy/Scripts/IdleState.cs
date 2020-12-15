@@ -20,7 +20,7 @@ public class IdleState : IEnemyState
     {
         //change to chase state
 
-        Debug.Log("Idle");
+
 
         if (parent.Target != null) 
         {

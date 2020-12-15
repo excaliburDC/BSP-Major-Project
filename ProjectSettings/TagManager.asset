@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstracle
   - Enemy
+  - HitBox
   layers:
   - Default
   - TransparentFX

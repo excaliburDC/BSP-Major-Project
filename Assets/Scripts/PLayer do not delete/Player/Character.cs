@@ -14,6 +14,9 @@ public abstract class Character : MonoBehaviour
 
     private Vector2 direction;
 
+    [SerializeField]
+    protected Transform hitBox;
+
     public Animator  MyAnimator
     {
         get;

@@ -13,8 +13,10 @@ public class Enemy : NPC
     private float initAggroRange;
     [SerializeField]
     private float attackTime;
-    
-    
+    [SerializeField]
+    private CanvasGroup healthGroup;
+
+
     private IEnemyState currentState;
 
     
@@ -64,6 +66,20 @@ public class Enemy : NPC
             AttackTime += Time.deltaTime;
 
         currentState.UpdateState();
+    }
+
+    public override Transform SelectTarget()
+    {
+        healthGroup.alpha = 1;
+
+        return base.SelectTarget();
+    }
+
+    public override void DeSelectTarget()
+    {
+        healthGroup.alpha = 0;
+
+        base.DeSelectTarget();
     }
 
     public void ChangeState(IEnemyState newState)

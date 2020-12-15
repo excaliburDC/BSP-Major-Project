@@ -50,7 +50,7 @@ public class Player : Character
     protected override void Update()
     {
         GetInput();
-        Debug.Log(LayerMask.GetMask("Block"));
+        //Debug.Log(LayerMask.GetMask("Block"));
         //InLineOfSight();
         base.Update();      
     }
