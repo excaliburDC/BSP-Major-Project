@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class Player : Character
 {
-    [SerializeField]
-    private Stats Bar1;
+    
     [SerializeField]
     private Stats Bar2;
-    [SerializeField]
-    private float maxHealth;
+   
     [SerializeField]
     private float maxThirst;
 
@@ -30,7 +28,7 @@ public class Player : Character
         }
     }
 
-    public Stats MyHealthBar { get => Bar1; set => Bar1 = value; }
+    
     public Transform MyTarget { get; set; }
 
     [SerializeField]
@@ -40,10 +38,9 @@ public class Player : Character
     [SerializeField]
     private Blocks[] blocks;
     private int ExitIndex;
+
     protected override void Start()
     {
-        
-        MyHealthBar.Initialize(maxHealth, maxHealth);
         Bar2.Initialize(maxThirst, maxThirst);
         base.Start();      
     }
@@ -52,7 +49,9 @@ public class Player : Character
         GetInput();
         //Debug.Log(LayerMask.GetMask("Block"));
         //InLineOfSight();
-        base.Update();      
+        base.Update(); 
+        
+
     }
   
     private void  GetInput()
@@ -127,14 +126,23 @@ public class Player : Character
     }
     private bool InLineOfSight()
     {
-        Vector2 targetdirection = (MyTarget.position - transform.position) ;
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, targetdirection, Vector2.Distance(transform.position, MyTarget.transform.position),512);
-        if(hit.collider == null)
+        if(MyTarget!=null)
         {
-            return true;
+            Vector2 targetdirection = (MyTarget.position - transform.position);
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, targetdirection, Vector2.Distance(transform.position, MyTarget.transform.position), 512);
+            
+            //if we didn't hit the block, we cast a spell
+            if (hit.collider == null)
+            {
+                return true;
+            }
+            //Debug.DrawRay(transform.position, targetdirection, Color.red);
+           
         }
-        //Debug.DrawRay(transform.position, targetdirection, Color.red);
+
+        //if we hit the block, we can cast a spell
         return false;
+
     }
     public void Block()
     {

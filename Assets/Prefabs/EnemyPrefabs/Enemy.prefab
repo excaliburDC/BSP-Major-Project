@@ -198,8 +198,9 @@ GameObject:
   - component: {fileID: 2050083292}
   - component: {fileID: 2050083294}
   - component: {fileID: 2050083293}
+  - component: {fileID: 6605240753335909438}
   m_Layer: 0
-  m_Name: Fill
+  m_Name: Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -252,15 +253,29 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: -3750482850934594921, guid: 0050916b415145b41a962b5cecb20f66,
     type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6605240753335909438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050083291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29d82c89987fe746ad7ca539ba21aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statValue: {fileID: 0}
+  lerpSpeed: 1
 --- !u!1 &52740050942989083
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,6 +531,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.5
+  health: {fileID: 6605240753335909438}
+  maxHealth: 25
   hitBox: {fileID: 2416200000672536709}
   attackRange: 1
   initAggroRange: 3

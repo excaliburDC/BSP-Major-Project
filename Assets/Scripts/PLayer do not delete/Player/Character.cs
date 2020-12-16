@@ -15,6 +15,12 @@ public abstract class Character : MonoBehaviour
     private Vector2 direction;
 
     [SerializeField]
+    protected Stats health;
+
+    [SerializeField]
+    private float maxHealth;
+
+    [SerializeField]
     protected Transform hitBox;
 
     public Animator  MyAnimator
@@ -23,7 +29,7 @@ public abstract class Character : MonoBehaviour
         set;
     }
 
-    
+    public Stats MyHealthBar { get => health; set => health = value; }
 
     //protected bool IsAttacking;
     protected Coroutine attackCoroutine;
@@ -73,8 +79,10 @@ public abstract class Character : MonoBehaviour
         myRB = GetComponent<Rigidbody2D>();
         //if (MyAnimator != null)
         //{
-            MyAnimator = GetComponent<Animator>();
+        MyAnimator = GetComponent<Animator>();
         //}
+
+        MyHealthBar.Initialize(maxHealth, maxHealth);
 
     }
     protected virtual void Update()
@@ -133,5 +141,15 @@ public abstract class Character : MonoBehaviour
             MyAnimator.SetBool("attack", IsAttacking);
         }
        
+    }
+
+    public virtual void TakeDamage(float damage)
+    {
+        health.MyCurrentValue -= damage;
+
+        if (health.MyCurrentValue <= 0) 
+        {
+            //die
+        }
     }
 }

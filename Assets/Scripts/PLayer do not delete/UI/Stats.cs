@@ -5,7 +5,11 @@ using UnityEngine.UI;
 public class Stats : MonoBehaviour
 {
     [SerializeField]
+    private Text statValue;
+
+    [SerializeField]
     private float lerpSpeed;
+
     private Image content;
 
     private float currentfill;
@@ -32,6 +36,12 @@ public class Stats : MonoBehaviour
             }
           
             currentfill = currentValue / MyMaxValue;
+
+            if (statValue != null) 
+            {
+                statValue.text = currentValue + " / " + MyMaxValue;
+            }
+            
         }
         
     }

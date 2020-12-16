@@ -2531,7 +2531,7 @@ GameObject:
   - component: {fileID: 364669097}
   - component: {fileID: 364669099}
   m_Layer: 5
-  m_Name: Fill
+  m_Name: PlayerHealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2604,6 +2604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c29d82c89987fe746ad7ca539ba21aa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  statValue: {fileID: 0}
   lerpSpeed: 2.5
 --- !u!1 &473474000
 GameObject:
@@ -2829,6 +2830,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  health: {fileID: 0}
+  maxHealth: 0
   hitBox: {fileID: 0}
 --- !u!212 &487326469
 SpriteRenderer:
@@ -3646,10 +3649,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  hitBox: {fileID: 805931531}
-  Bar1: {fileID: 364669099}
-  Bar2: {fileID: 1079360845}
+  health: {fileID: 364669099}
   maxHealth: 100
+  hitBox: {fileID: 805931531}
+  Bar2: {fileID: 1079360845}
   maxThirst: 50
   playerWeaponsList:
   - {fileID: 1203574588}
@@ -3875,6 +3878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c29d82c89987fe746ad7ca539ba21aa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  statValue: {fileID: 0}
   lerpSpeed: 2.5
 --- !u!1 &1107232098
 GameObject:

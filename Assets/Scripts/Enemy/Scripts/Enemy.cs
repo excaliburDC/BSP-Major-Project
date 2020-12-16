@@ -60,12 +60,19 @@ public class Enemy : NPC
 
     protected override void Update()
     {
+
         base.Update();
 
         if (!IsAttacking)
             AttackTime += Time.deltaTime;
 
         currentState.UpdateState();
+
+        //for testing purposes
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            TakeDamage(5);
+        }
     }
 
     public override Transform SelectTarget()
