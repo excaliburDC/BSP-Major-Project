@@ -17,7 +17,7 @@ public class ChaseState : IEnemyState
 
     public void UpdateState()
     {
-        Debug.Log("Chasing");
+
 
         if (parent.Target!=null)
         {

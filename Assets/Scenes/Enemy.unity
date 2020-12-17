@@ -3654,9 +3654,8 @@ MonoBehaviour:
   hitBox: {fileID: 805931531}
   Bar2: {fileID: 1079360845}
   maxThirst: 50
-  playerWeaponsList:
-  - {fileID: 1203574588}
-  spellPrefab: []
+  spellPrefab:
+  - {fileID: 7895490715797043769, guid: 6f6e8d06d14bf3c459838cf437861ed8, type: 3}
   ExitPoints: []
   blocks: []
 --- !u!61 &805931533
@@ -4027,12 +4026,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179928130}
   m_CullTransparentMesh: 0
---- !u!1 &1203574588 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3967502623542819630, guid: aa585408739881d4991151dcd616ef55,
-    type: 3}
-  m_PrefabInstance: {fileID: 3967502624689630226}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1203574592 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3967502623542819666, guid: aa585408739881d4991151dcd616ef55,
@@ -5920,6 +5913,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8645827833886460293, guid: 0712b42483775bc49bdee3694aae1629,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0712b42483775bc49bdee3694aae1629, type: 3}

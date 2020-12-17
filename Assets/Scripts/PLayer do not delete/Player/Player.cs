@@ -11,9 +11,6 @@ public class Player : Character
     [SerializeField]
     private float maxThirst;
 
-    //for testing purposes
-    [SerializeField]
-    private List<GameObject> playerWeaponsList;
    
     private static Player instance;
     public static Player MyInstance
@@ -48,7 +45,7 @@ public class Player : Character
     {
         GetInput();
         //Debug.Log(LayerMask.GetMask("Block"));
-        //InLineOfSight();
+       // InLineOfSight();
         base.Update(); 
         
 
@@ -77,17 +74,17 @@ public class Player : Character
         }
         if (Input.GetKey(KeyCode.A))//left
         {
-            ExitIndex = 3;
+            ExitIndex = 2;
             Direction += Vector2.left;           
         }
         if (Input.GetKey(KeyCode.S))//down
         {
-            ExitIndex = 2;
+            ExitIndex = 1;
             Direction += Vector2.down;
         }
         if (Input.GetKey(KeyCode.D))//right
         {
-            ExitIndex = 1;
+            ExitIndex = 3;
             Direction += Vector2.right;
         }
         if (Input.GetKeyDown(KeyCode.Space))

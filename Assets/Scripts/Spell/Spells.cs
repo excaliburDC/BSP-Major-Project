@@ -14,7 +14,7 @@ public class Spells : MonoBehaviour
     void Start()
     {
         MyRigidBody = GetComponent<Rigidbody2D>();
-        target = GameObject.Find("Target").transform;
+        target = GameObject.Find("Dragon").transform;
     }
    
     // Update is called once per frame

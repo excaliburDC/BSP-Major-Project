@@ -19,7 +19,7 @@ public class AttackState : IEnemyState
 
     public void UpdateState()
     {
-        Debug.Log("Attacking");
+       
 
         if (parent.AttackTime>=attackCoolDown && !parent.IsAttacking)
         {
