@@ -110,10 +110,33 @@ public class Player : Character
 
         //CastSpell();
 
-        //if(spellPrefab[0])
-        Spells s = Instantiate(spellPrefab[spellIndex], ExitPoints[ExitIndex].position, Quaternion.identity).GetComponent<Spells>();
+        Spells s;
 
-        s.Target = MyTarget;
+
+        if (spellIndex == 0)
+        {
+            s = Instantiate(spellPrefab[spellIndex], MyTarget.position, Quaternion.identity).GetComponent<Spells>();
+            s.Target = MyTarget;
+        }
+
+        if (spellIndex == 1)
+        {
+            s = Instantiate(spellPrefab[spellIndex], MyTarget.position - new Vector3(0f, 0.2f, 0f), Quaternion.identity).GetComponent<Spells>();
+            s.Target = MyTarget;
+        }
+
+        else if (spellIndex == 2)
+        {
+            s = Instantiate(spellPrefab[spellIndex], MyTarget.position - new Vector3(0f, -0.5f, 0f), Quaternion.identity).GetComponent<Spells>();
+            s.Target = MyTarget;
+        }
+
+
+
+        //Spells s = Instantiate(spellPrefab[spellIndex], ExitPoints[ExitIndex].position, Quaternion.identity).GetComponent<Spells>();
+
+        // s.Target = MyTarget;
+
 
         //Debug.Log("done attacking");
         StopAttack();
@@ -122,6 +145,7 @@ public class Player : Character
     public void CastSpell(int spellIndex)
     {
         Block();
+
         if (MyTarget != null && !IsAttacking && !IsMoving && InLineOfSight())
         {
             attackCoroutine = StartCoroutine(Attack(spellIndex));

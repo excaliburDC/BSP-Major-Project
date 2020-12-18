@@ -18,6 +18,8 @@ public class ChaseState : IEnemyState
     public void UpdateState()
     {
 
+        
+
 
         if (parent.Target!=null)
         {
