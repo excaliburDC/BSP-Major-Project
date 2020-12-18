@@ -2634,6 +2634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c29d82c89987fe746ad7ca539ba21aa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  statValue: {fileID: 0}
   lerpSpeed: 2.5
 --- !u!1 &441552108
 GameObject:
@@ -2889,6 +2890,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  health: {fileID: 0}
+  maxHealth: 0
+  hitBox: {fileID: 0}
 --- !u!212 &487326469
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3186,7 +3190,6 @@ Transform:
   m_LocalPosition: {x: 1.0210676, y: -0.15519726, z: -0.36017925}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1282307549}
   - {fileID: 1441688843}
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -3739,12 +3742,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  Bar1: {fileID: 364669099}
-  Bar2: {fileID: 1079360845}
+  health: {fileID: 0}
   maxHealth: 100
+  hitBox: {fileID: 0}
+  Bar2: {fileID: 1079360845}
   maxThirst: 50
-  playerWeaponsList:
-  - {fileID: 1203574588}
   spellPrefab:
   - {fileID: 2625391779395330543, guid: 669365cb2b91b0f40b57c07c6b96bf15, type: 3}
   ExitPoints:
@@ -3980,6 +3982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c29d82c89987fe746ad7ca539ba21aa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  statValue: {fileID: 0}
   lerpSpeed: 2.5
 --- !u!1 &1098702939
 GameObject:
@@ -4265,12 +4268,6 @@ Transform:
   m_Father: {fileID: 1547911805}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1203574588 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3967502623542819630, guid: aa585408739881d4991151dcd616ef55,
-    type: 3}
-  m_PrefabInstance: {fileID: 3967502624689630226}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1203574592 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3967502623542819666, guid: aa585408739881d4991151dcd616ef55,
@@ -4729,12 +4726,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282307547}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1386.8143, y: 860.62067, z: 0.36017925}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 558055516}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1313719943
 GameObject:
@@ -5140,7 +5137,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 558055516}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1441688844
 MonoBehaviour:
@@ -6566,8 +6563,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.5
+  health: {fileID: 0}
+  maxHealth: 0
+  hitBox: {fileID: 0}
   attackRange: 2
   initAggroRange: 0
+  attackTime: 0
+  healthGroup: {fileID: 0}
 --- !u!1 &6183346103852478924
 GameObject:
   m_ObjectHideFlags: 0
@@ -6728,7 +6730,7 @@ SpriteRenderer:
   m_Size: {x: 4.8, y: 4.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &7280067124074276656

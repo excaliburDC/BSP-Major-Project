@@ -89,43 +89,53 @@ public class Player : Character
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Block();
-            if (MyTarget != null && !IsAttacking && !IsMoving && InLineOfSight())
-            {
-                attackCoroutine = StartCoroutine(Attack());
-            }
+            
         }
     }
 
     //Attack Animations
-    private IEnumerator Attack()
+    private IEnumerator Attack(int spellIndex)
     {
      
-            IsAttacking = true;
-            MyAnimator.SetBool("attack", IsAttacking);
+        IsAttacking = true;
+        MyAnimator.SetBool("attack", IsAttacking);
 
 
 
-            //for testing purposes
-            //Weapon currentWeapon = (Weapon) playerWeaponsList[0].GetComponent<Collectables>().typeCollect;
-            //currentWeapon.Attack();
+        //for testing purposes
+        //Weapon currentWeapon = (Weapon) playerWeaponsList[0].GetComponent<Collectables>().typeCollect;
+        //currentWeapon.Attack();
 
-            yield return new WaitForSeconds(0.7f);
-            CastSpell();
-            //Debug.Log("done attacking");
-            StopAttack();
+        yield return new WaitForSeconds(0.7f);
+
+        //CastSpell();
+
+        //if(spellPrefab[0])
+        Spells s = Instantiate(spellPrefab[spellIndex], ExitPoints[ExitIndex].position, Quaternion.identity).GetComponent<Spells>();
+
+        s.Target = MyTarget;
+
+        //Debug.Log("done attacking");
+        StopAttack();
     }
 
-    public void CastSpell()
+    public void CastSpell(int spellIndex)
     {
-        Instantiate(spellPrefab[0], ExitPoints[ExitIndex].position, Quaternion.identity);
+        Block();
+        if (MyTarget != null && !IsAttacking && !IsMoving && InLineOfSight())
+        {
+            attackCoroutine = StartCoroutine(Attack(spellIndex));
+        }
+
+        
     
     }
     private bool InLineOfSight()
     {
         if(MyTarget!=null)
         {
-            Vector2 targetdirection = (MyTarget.position - transform.position);
+            Vector2 targetdirection = (MyTarget.position - transform.position).normalized;
+
             RaycastHit2D hit = Physics2D.Raycast(transform.position, targetdirection, Vector2.Distance(transform.position, MyTarget.transform.position), 512);
             
             //if we didn't hit the block, we cast a spell

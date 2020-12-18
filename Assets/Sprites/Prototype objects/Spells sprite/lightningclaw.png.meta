@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: 4f04b0ad0a0a23f49a9a234e4240764a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -790880467886324489
+    second: lightningclaw_0
+  - first:
+      213: 969220014494425284
+    second: lightningclaw_1
+  - first:
+      213: -5382001067877824970
+    second: lightningclaw_2
+  - first:
+      213: -8983100988081321537
+    second: lightningclaw_3
+  - first:
+      213: 3065074978883072029
+    second: lightningclaw_4
+  - first:
+      213: -3918765184528510196
+    second: lightningclaw_5
+  - first:
+      213: -510113118286173683
+    second: lightningclaw_6
+  - first:
+      213: -3379784093549561538
+    second: lightningclaw_7
+  - first:
+      213: -8533870961335989910
+    second: lightningclaw_8
+  - first:
+      213: 2749618590797562861
+    second: lightningclaw_9
+  - first:
+      213: -1513483396773943208
+    second: lightningclaw_10
+  - first:
+      213: -3061344931477864709
+    second: lightningclaw_11
+  - first:
+      213: 7957955331609878373
+    second: lightningclaw_12
+  - first:
+      213: -2808861631589063516
+    second: lightningclaw_13
+  - first:
+      213: -3008191252885138772
+    second: lightningclaw_14
+  - first:
+      213: -8620475127419961243
+    second: lightningclaw_15
+  - first:
+      213: -2715531713725147023
+    second: lightningclaw_16
+  - first:
+      213: 2186498803937277965
+    second: lightningclaw_17
+  - first:
+      213: -6504413873384328010
+    second: lightningclaw_18
+  - first:
+      213: 8589411995294949183
+    second: lightningclaw_19
+  - first:
+      213: -7135580229314823289
+    second: lightningclaw_20
+  - first:
+      213: 8544625637595075884
+    second: lightningclaw_21
+  - first:
+      213: 5371261107128576628
+    second: lightningclaw_22
+  - first:
+      213: -3227889675497432451
+    second: lightningclaw_23
+  - first:
+      213: 3563167669844197534
+    second: lightningclaw_24
+  - first:
+      213: -4181862188527195015
+    second: lightningclaw_25
+  - first:
+      213: 6719751250856289326
+    second: lightningclaw_26
+  - first:
+      213: 5725671618042789542
+    second: lightningclaw_27
+  - first:
+      213: 3129129066619535691
+    second: lightningclaw_28
+  - first:
+      213: 6458114116881919999
+    second: lightningclaw_29
+  - first:
+      213: -1157825600047613219
+    second: lightningclaw_30
+  - first:
+      213: -4491504389942374662
+    second: lightningclaw_31
+  - first:
+      213: 1411883238790969323
+    second: lightningclaw_32
+  - first:
+      213: 5518791032027840090
+    second: lightningclaw_33
+  - first:
+      213: -1105391531340695237
+    second: lightningclaw_34
+  - first:
+      213: 8243476788136165635
+    second: lightningclaw_35
+  - first:
+      213: -7934036856682046570
+    second: lightningclaw_36
+  - first:
+      213: -6838707109104783123
+    second: lightningclaw_37
+  - first:
+      213: -6745487871328646873
+    second: lightningclaw_38
+  - first:
+      213: 6494921158863238736
+    second: lightningclaw_39
+  - first:
+      213: -2050434869058694172
+    second: lightningclaw_40
+  - first:
+      213: 6483623069127931981
+    second: lightningclaw_41
+  - first:
+      213: -7365880830064152854
+    second: lightningclaw_42
+  - first:
+      213: 3872242761675085661
+    second: lightningclaw_43
+  - first:
+      213: -8007879737758915411
+    second: lightningclaw_44
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lightningclaw_36
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 151
+        width: 80
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bfb3ea3d0c1a54fa5de616f7d99b85
+      internalID: -7934036856682046570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningclaw_37
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 155
+        width: 102
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49290407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118237944253555458df457f73bd45b6
+      internalID: -6838707109104783123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningclaw_38
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 153
+        width: 91
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1444bad5467044da07c4cd774ec0b3
+      internalID: -6745487871328646873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningclaw_39
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 162
+        width: 76
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed32e74e3e6a3a544827a63c9078863d
+      internalID: 6494921158863238736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningclaw_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 26
+        width: 98
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0636e8705edf364498e9256d8d6d6a9d
+      internalID: -2050434869058694172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningclaw_41
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 32
+        width: 86
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac6f2c3bf2715b4e91e84c7989e7687
+      internalID: 6483623069127931981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningclaw_42
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 27
+        width: 85
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe592988ece58f4f8604ba1c6feba7d
+      internalID: -7365880830064152854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningclaw_43
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 25
+        width: 55
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83e2323fee5b0348ae775414a7bca29
+      internalID: 3872242761675085661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningclaw_44
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 458
+        width: 76
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0798ae0f27261ad46b4f3f6acc8cb2c3
+      internalID: -8007879737758915411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningclaw_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 434
+        width: 89
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e69fc1e30905c4b92204f22171bee2
+      internalID: -790880467886324489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningclaw_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 405
+        width: 104
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3e611db059a674f8043e59667e397e
+      internalID: 969220014494425284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningclaw_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 407
+        width: 90
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e784a7ef01f55419eddadcb6ef06dc
+      internalID: -5382001067877824970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningclaw_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 267
+        width: 103
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebe04d288b97094c98f6924a0c4dd20
+      internalID: -8983100988081321537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningclaw_4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 274
+        width: 110
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b24d3f06d34a642b299bec213af811
+      internalID: 3065074978883072029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningclaw_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 273
+        width: 93
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c65d1f3a6211b944a683ab06cf54a57
+      internalID: -3918765184528510196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightningclaw_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 270
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff984b5a2882178478deeffc473c9871
+      internalID: -510113118286173683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

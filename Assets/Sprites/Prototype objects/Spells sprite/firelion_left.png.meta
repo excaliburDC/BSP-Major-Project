@@ -1,0 +1,883 @@
+fileFormatVersion: 2
+guid: d61991cfd53486b40959232e35305cb1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4831279500073527826
+    second: firelion_left_0
+  - first:
+      213: -1558150840208772785
+    second: firelion_left_1
+  - first:
+      213: 748860590093132556
+    second: firelion_left_2
+  - first:
+      213: 1847003275954452994
+    second: firelion_left_3
+  - first:
+      213: -4351894868403146755
+    second: firelion_left_4
+  - first:
+      213: -9089181438907269351
+    second: firelion_left_5
+  - first:
+      213: 4416398718150795686
+    second: firelion_left_6
+  - first:
+      213: 4109213190111624893
+    second: firelion_left_7
+  - first:
+      213: 4911772813784298490
+    second: firelion_left_8
+  - first:
+      213: -5953986034327272168
+    second: firelion_left_9
+  - first:
+      213: -5590295267768918904
+    second: firelion_left_10
+  - first:
+      213: 9170370155488086397
+    second: firelion_left_11
+  - first:
+      213: 2295427486072562141
+    second: firelion_left_12
+  - first:
+      213: -3903597645031209847
+    second: firelion_left_13
+  - first:
+      213: -178928276394913034
+    second: firelion_left_14
+  - first:
+      213: -8714745463266929168
+    second: firelion_left_15
+  - first:
+      213: 4873186645679820931
+    second: firelion_left_16
+  - first:
+      213: 4893619174556186528
+    second: firelion_left_17
+  - first:
+      213: 2621589518436387266
+    second: firelion_left_18
+  - first:
+      213: -6444290616726713212
+    second: firelion_left_19
+  - first:
+      213: -7958227543895507042
+    second: firelion_left_20
+  - first:
+      213: -8865475889605226498
+    second: firelion_left_21
+  - first:
+      213: 1052674966686057666
+    second: firelion_left_22
+  - first:
+      213: 5665748119447635273
+    second: firelion_left_23
+  - first:
+      213: 4266425420060220734
+    second: firelion_left_24
+  - first:
+      213: 6281630963372913051
+    second: firelion_left_25
+  - first:
+      213: -2304794036943930701
+    second: firelion_left_26
+  - first:
+      213: 711124394829668274
+    second: firelion_left_27
+  - first:
+      213: 152858084196082521
+    second: firelion_left_28
+  - first:
+      213: -6785471630353472378
+    second: firelion_left_29
+  - first:
+      213: -320521334292332776
+    second: firelion_left_30
+  - first:
+      213: -5026462170708173848
+    second: firelion_left_31
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: firelion_left_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 448
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fe5972fe446f94fa494edfa3679971
+      internalID: 4831279500073527826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_1
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 443
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64594a9ac58bb00409083466bc8d2d4a
+      internalID: -1558150840208772785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_2
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 433
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98c2ee0a4c9efc40a9d1566e89a9a92
+      internalID: 748860590093132556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_3
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 418
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d710a99ff172f4045b62b54dfe8dbee8
+      internalID: 1847003275954452994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 278
+        width: 86
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5448326ae5c1424092f6753b6baeccb
+      internalID: -4351894868403146755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_5
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 265
+        width: 109
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6053e9667ab5c044b9de92376acdb582
+      internalID: -9089181438907269351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 359
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18cbb960ba6c1e479d0ed268513fec8
+      internalID: 4416398718150795686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 364
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d421d664b33cfe04fb2d0272131fce78
+      internalID: 4109213190111624893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_8
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 347
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f44800f67dd33a4593ec41d3022d362
+      internalID: 4911772813784298490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_9
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 352
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a710941240595904d9b2573bf044043c
+      internalID: -5953986034327272168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 265
+        width: 120
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c85b14538cd26343b9f230e68f71c4b
+      internalID: -5590295267768918904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_11
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 265
+        width: 118
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263b91f9b04e3e24f9b4cc4a4ddf16c6
+      internalID: 9170370155488086397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_12
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 236
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0ef50f7aac86e469124e4f3be34676
+      internalID: 2295427486072562141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_13
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 137
+        width: 114
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216db9972ce14af498cd395b642be40c
+      internalID: -3903597645031209847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 206
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409200c7c3c8aa5499745eba39c2b032
+      internalID: -178928276394913034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_15
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 218
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20074c2e88b2cfa4bae201064783c834
+      internalID: -8714745463266929168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 215
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f882f2cefc73b48b0721e5928e934f
+      internalID: 4873186645679820931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_17
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 137
+        width: 102
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f82f403406a70469bec6ce8979f9c9
+      internalID: 4893619174556186528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_18
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 177
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5827449a7255eda4e802368172efd708
+      internalID: 2621589518436387266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_19
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 182
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85763e65c749564683c8f1e7e35c7a3
+      internalID: -6444290616726713212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_20
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 137
+        width: 105
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333b7cc39acd36946b1375eca9412286
+      internalID: -7958227543895507042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_21
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 137
+        width: 88
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a8617fddefe9d4a8252d8bd0b887c0
+      internalID: -8865475889605226498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_22
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 64
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8be7fea3af44947b4d3d352b7c602b
+      internalID: 1052674966686057666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_23
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 95
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37df5fc17015ac459291d788f102269
+      internalID: 5665748119447635273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 56
+        width: 4
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fa61f6f21577e42bcee68e7a1bcb18
+      internalID: 4266425420060220734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_25
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 48
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d12f0c324b657a478765aacf80d6086
+      internalID: 6281630963372913051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_26
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 10
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0a03c39baeed6499e85772869809ff
+      internalID: -2304794036943930701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_27
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 9
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3f5b92919fc5a49b07ca6258c1fdda
+      internalID: 711124394829668274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_28
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 18
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5b0bcf69198374599660bc1c4d4bbc
+      internalID: 152858084196082521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_29
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 9
+        width: 57
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac99d0af7b4017847b4594264dc62b79
+      internalID: -6785471630353472378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_30
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 9
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89419c83889468047969de7b4f2c27a4
+      internalID: -320521334292332776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firelion_left_31
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 10
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be5bfb9b2d306547af400c49fe00dbf
+      internalID: -5026462170708173848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
