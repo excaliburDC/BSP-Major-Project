@@ -139,6 +139,7 @@ public abstract class Character : MonoBehaviour
             StopCoroutine(attackCoroutine);
             IsAttacking = false;
             MyAnimator.SetBool("attack", IsAttacking);
+            
         }
        
     }

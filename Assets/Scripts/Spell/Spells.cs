@@ -19,6 +19,8 @@ public class Spells : MonoBehaviour
     void Start()
     {
         MyRigidBody = GetComponent<Rigidbody2D>();
+
+        
         
     }
    
@@ -34,5 +36,15 @@ public class Spells : MonoBehaviour
         ////to turn the fire ball
         //float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        Invoke("DestroyEffect",1.2f);
+    }
+
+    void DestroyEffect()
+    {
+        Destroy(gameObject);
     }
 }
