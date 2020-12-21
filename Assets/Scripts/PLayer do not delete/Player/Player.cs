@@ -25,19 +25,18 @@ public class Player : Character
         }
     }
 
-    
-    public Transform MyTarget { get; set; }
 
-    [SerializeField]
-    private GameObject[] spellPrefab;
     [SerializeField]
     private Transform[] ExitPoints;
     [SerializeField]
     private Blocks[] blocks;
     private int ExitIndex;
 
+    private SpellBook spellBook;
+
     protected override void Start()
     {
+        spellBook = GetComponent<SpellBook>();
         Bar2.Initialize(maxThirst, maxThirst);
         base.Start();      
     }
@@ -96,6 +95,9 @@ public class Player : Character
     //Attack Animations
     private IEnumerator Attack(int spellIndex)
     {
+        Transform currentTarget = Target;
+
+        Spell newSpell = spellBook.CastSpell(spellIndex);
      
         IsAttacking = true;
         MyAnimator.SetBool("attack", IsAttacking);
@@ -110,26 +112,30 @@ public class Player : Character
 
         //CastSpell();
 
-        Spells s;
+        SpellsScript s;
 
-
-        if (spellIndex == 0)
+        if(currentTarget!=null && InLineOfSight())
         {
-            s = Instantiate(spellPrefab[spellIndex], MyTarget.position, Quaternion.identity).GetComponent<Spells>();
-            s.Target = MyTarget;
+            if (spellIndex == 0)
+            {
+                s = Instantiate(newSpell.SpellPrefab, currentTarget.position, Quaternion.identity).GetComponent<SpellsScript>();
+                s.InitTarget(currentTarget, newSpell.Damage);
+            }
+
+            if (spellIndex == 1)
+            {
+                s = Instantiate(newSpell.SpellPrefab, currentTarget.position - new Vector3(0f, 0.2f, 0f), Quaternion.identity).GetComponent<SpellsScript>();
+                s.InitTarget(currentTarget, newSpell.Damage);
+            }
+
+            else if (spellIndex == 2)
+            {
+                s = Instantiate(newSpell.SpellPrefab, currentTarget.position - new Vector3(0f, -0.5f, 0f), Quaternion.identity).GetComponent<SpellsScript>();
+                s.InitTarget(currentTarget, newSpell.Damage);
+            }
         }
 
-        if (spellIndex == 1)
-        {
-            s = Instantiate(spellPrefab[spellIndex], MyTarget.position - new Vector3(0f, 0.2f, 0f), Quaternion.identity).GetComponent<Spells>();
-            s.Target = MyTarget;
-        }
-
-        else if (spellIndex == 2)
-        {
-            s = Instantiate(spellPrefab[spellIndex], MyTarget.position - new Vector3(0f, -0.5f, 0f), Quaternion.identity).GetComponent<Spells>();
-            s.Target = MyTarget;
-        }
+        
 
 
 
@@ -146,7 +152,7 @@ public class Player : Character
     {
         Block();
 
-        if (MyTarget != null && !IsAttacking && !IsMoving && InLineOfSight())
+        if (Target != null && !IsAttacking && !IsMoving && InLineOfSight())
         {
             attackCoroutine = StartCoroutine(Attack(spellIndex));
         }
@@ -156,11 +162,11 @@ public class Player : Character
     }
     private bool InLineOfSight()
     {
-        if(MyTarget!=null)
+        if(Target!=null)
         {
-            Vector2 targetdirection = (MyTarget.position - transform.position).normalized;
+            Vector2 targetdirection = (Target.position - transform.position).normalized;
 
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, targetdirection, Vector2.Distance(transform.position, MyTarget.transform.position), 512);
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, targetdirection, Vector2.Distance(transform.position, Target.transform.position), 512);
             
             //if we didn't hit the block, we cast a spell
             if (hit.collider == null)

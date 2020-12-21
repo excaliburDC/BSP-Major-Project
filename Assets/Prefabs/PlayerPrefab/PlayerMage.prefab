@@ -629,6 +629,7 @@ GameObject:
   - component: {fileID: 6955487278883251757}
   - component: {fileID: 6955487278883251756}
   - component: {fileID: 6955487278883251759}
+  - component: {fileID: 5855736229368472122}
   - component: {fileID: 6955487278883251744}
   m_Layer: 10
   m_Name: PlayerMage
@@ -770,6 +771,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5855736229368472122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6955487278883251747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a56ee367916a7c48aabe3f449f34d29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spells:
+  - name: FireLion
+    damage: 10
+    spellPrefab: {fileID: 6860202871173429498, guid: d27ca663ea5c67f4790a75ab34cf3eeb,
+      type: 3}
+  - name: IceBurst
+    damage: 5
+    spellPrefab: {fileID: 9125803431614384292, guid: 81616e5b7fe5c504a9e2cea1f6b6e0c7,
+      type: 3}
+  - name: ThunderShower
+    damage: 10
+    spellPrefab: {fileID: 5360590186828053163, guid: 8e9d4d64aa720e34f9a21653359cbfa5,
+      type: 3}
 --- !u!114 &6955487278883251744
 MonoBehaviour:
   m_ObjectHideFlags: 0

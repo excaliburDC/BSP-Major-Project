@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
 
                 currentTarget = hit.collider.GetComponent<NPC>();
 
-                player.MyTarget = currentTarget.SelectTarget();
+                player.Target = currentTarget.SelectTarget();
             }
             else
             {
@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
 
                 currentTarget = null;
                 //it detargets the enemy
-                player.MyTarget = null;
+                player.Target = null;
             }
         }
     }

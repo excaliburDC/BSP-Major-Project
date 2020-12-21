@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public abstract class Character : MonoBehaviour
@@ -22,6 +20,9 @@ public abstract class Character : MonoBehaviour
 
     [SerializeField]
     protected Transform hitBox;
+
+    
+    public FlashColor color;
 
     public Animator  MyAnimator
     {
@@ -69,18 +70,22 @@ public abstract class Character : MonoBehaviour
     //To be done after adding health system
     public bool IsAlive
     {
-        get;
-        set;
+        get 
+        {
+            return health.MyCurrentValue > 0;
+        }
+       
     }
     
 
     protected virtual void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
-        //if (MyAnimator != null)
-        //{
+        
         MyAnimator = GetComponent<Animator>();
-        //}
+
+        color = GetComponent<FlashColor>();
+    
 
         MyHealthBar.Initialize(maxHealth, maxHealth);
 
@@ -101,26 +106,40 @@ public abstract class Character : MonoBehaviour
     }
     public void Move()
     {
-        myRB.velocity = Direction.normalized * Speed;
+        if(IsAlive)
+        {
+            myRB.velocity = Direction.normalized * Speed;
+        }
+        
     }
 
     protected virtual void HandleLayers()
-    {       
-        if (IsMoving)
+    {
+        if(IsAlive)
         {
-            ActivateLayer("WalkLayer");
-            MyAnimator.SetFloat("X", Direction.x);
-            MyAnimator.SetFloat("Y", Direction.y);
-            StopAttack();
+            if (IsMoving)
+            {
+                ActivateLayer("WalkLayer");
+                MyAnimator.SetFloat("X", Direction.x);
+                MyAnimator.SetFloat("Y", Direction.y);
+                StopAttack();
+            }
+            else if (IsAttacking)
+            {
+                ActivateLayer("AttackLayer");
+            }
+            else
+            {
+                ActivateLayer("IdleLayer");
+            }
         }
-        else if(IsAttacking)
-        {
-            ActivateLayer("AttackLayer");
-        }
+
         else
         {
-            ActivateLayer("IdleLayer");        
-        }       
+            ActivateLayer("DeathLayer");
+        }
+
+              
     }
    
     private void ActivateLayer(string layerName)
@@ -146,11 +165,16 @@ public abstract class Character : MonoBehaviour
 
     public virtual void TakeDamage(float damage)
     {
+        
         health.MyCurrentValue -= damage;
+    
 
         if (health.MyCurrentValue <= 0) 
         {
+            Direction = Vector2.zero;
+            myRB.velocity = direction;
             //die
+            MyAnimator.SetTrigger("die");
         }
     }
 }

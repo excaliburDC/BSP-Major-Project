@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using System;
+﻿using UnityEngine;
+
 
 
 public class Enemy : NPC
@@ -18,7 +16,7 @@ public class Enemy : NPC
 
 
     private IEnemyState currentState;
-
+    
     
 
     private bool reachedPathEnd = false;
@@ -60,21 +58,23 @@ public class Enemy : NPC
 
     protected override void Update()
     {
+        if(IsAlive)
+        {
+            if (!IsAttacking)
+                AttackTime += Time.deltaTime;
+
+            currentState.UpdateState();
+
+            
+        }
 
         base.Update();
 
-        if (!IsAttacking)
-            AttackTime += Time.deltaTime;
+     
 
-        currentState.UpdateState();
-
-        //for testing purposes
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(5);
-        }
     }
 
+ 
     public override Transform SelectTarget()
     {
         healthGroup.alpha = 1;
