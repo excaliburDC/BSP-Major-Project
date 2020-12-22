@@ -163,7 +163,7 @@ public abstract class Character : MonoBehaviour
        
     }
 
-    public virtual void TakeDamage(float damage)
+    public virtual void TakeDamage(float damage,Transform source)
     {
         
         health.MyCurrentValue -= damage;

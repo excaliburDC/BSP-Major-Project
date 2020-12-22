@@ -17,10 +17,7 @@ public class ChaseState : IEnemyState
 
     public void UpdateState()
     {
-
-        
-
-
+       
         if (parent.Target!=null)
         {
             parent.Direction = (parent.Target.position - parent.transform.position).normalized;
@@ -35,15 +32,15 @@ public class ChaseState : IEnemyState
             }
         }
 
-        //if(!parent.InRange)
+        if (!parent.InRange)
+        {
+            parent.ChangeState(new EvadeState());
+        }
+
+        //else
         //{
         //    parent.ChangeState(new IdleState());
         //}
-
-        else
-        {
-            parent.ChangeState(new IdleState());
-        }
         
     }
 }

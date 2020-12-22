@@ -15,6 +15,7 @@ public class SpellsScript : MonoBehaviour
         private set;
     }
 
+    private Transform source;
     private int damage;
 
     // Start is called before the first frame update
@@ -40,19 +41,24 @@ public class SpellsScript : MonoBehaviour
         //transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
     }
 
-    public void InitTarget(Transform target,int damage)
+    public void InitTarget(Transform target,int damage,Transform source)
     {
         this.Target = target;
         this.damage = damage;
+        this.source = source;
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
         if(col.tag == "HitBox" && col.transform==Target)
         {
+            Character c = col.GetComponentInParent<Enemy>();
+
+            c.TakeDamage(damage, source);
+
             Invoke("DestroyEffect", 1.2f);
-            col.GetComponentInParent<Enemy>().TakeDamage(damage);
-           // col.attachedRigidbody.velocity = Vector2.zero;
+
+
             Target = null;
         }
 

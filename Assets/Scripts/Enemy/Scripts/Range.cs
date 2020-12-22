@@ -16,16 +16,17 @@ public class Range : MonoBehaviour
         if(col.gameObject.tag == "Player")
         {
             Debug.Log("Entering enemy Range");
-            parentObj.Target = col.transform;
+
+            parentObj.SetTarget(col.transform);
         }
     }
 
-    private void OnTriggerExit2D(Collider2D col)
-    {
-        if (col.gameObject.tag == "Player")
-        {
-            Debug.Log("Exiting enemy Range");
-            parentObj.Target = null;
-        }
-    }
+    //private void OnTriggerExit2D(Collider2D col)
+    //{
+    //    if (col.gameObject.tag == "Player")
+    //    {
+    //        Debug.Log("Exiting enemy Range");
+    //        parentObj.Target = null;
+    //    }
+    //}
 }

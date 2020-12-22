@@ -119,19 +119,19 @@ public class Player : Character
             if (spellIndex == 0)
             {
                 s = Instantiate(newSpell.SpellPrefab, currentTarget.position, Quaternion.identity).GetComponent<SpellsScript>();
-                s.InitTarget(currentTarget, newSpell.Damage);
+                s.InitTarget(currentTarget, newSpell.Damage,transform);
             }
 
             if (spellIndex == 1)
             {
                 s = Instantiate(newSpell.SpellPrefab, currentTarget.position - new Vector3(0f, 0.2f, 0f), Quaternion.identity).GetComponent<SpellsScript>();
-                s.InitTarget(currentTarget, newSpell.Damage);
+                s.InitTarget(currentTarget, newSpell.Damage,transform);
             }
 
             else if (spellIndex == 2)
             {
                 s = Instantiate(newSpell.SpellPrefab, currentTarget.position - new Vector3(0f, -0.5f, 0f), Quaternion.identity).GetComponent<SpellsScript>();
-                s.InitTarget(currentTarget, newSpell.Damage);
+                s.InitTarget(currentTarget, newSpell.Damage,transform);
             }
         }
 
@@ -152,7 +152,7 @@ public class Player : Character
     {
         Block();
 
-        if (Target != null && !IsAttacking && !IsMoving && InLineOfSight())
+        if (Target != null && Target.GetComponentInParent<Character>().IsAlive && !IsAttacking && !IsMoving && InLineOfSight())
         {
             attackCoroutine = StartCoroutine(Attack(spellIndex));
         }

@@ -13,6 +13,8 @@ public class Enemy : NPC
     private float attackTime;
     [SerializeField]
     private CanvasGroup healthGroup;
+    [SerializeField]
+    private GameObject enemyAttackPrefab;
 
 
     private IEnemyState currentState;
@@ -20,6 +22,12 @@ public class Enemy : NPC
     
 
     private bool reachedPathEnd = false;
+
+    public Vector3 StartPos
+    {
+        get;
+        set;
+    }
 
     public float AttackRange
     {
@@ -47,10 +55,15 @@ public class Enemy : NPC
         }
     }
 
-    
+    public GameObject EnemyAttackPrefab 
+    { 
+        get => enemyAttackPrefab; 
+        private set => enemyAttackPrefab = value; 
+    }
 
     protected void Awake()
     {
+        StartPos = transform.position;
         AggroRange = initAggroRange;
         ChangeState(new IdleState());
     }
@@ -89,6 +102,18 @@ public class Enemy : NPC
         base.DeSelectTarget();
     }
 
+    public override void TakeDamage(float damage, Transform source)
+    {
+        if(!(currentState is EvadeState))
+        {
+            SetTarget(source);
+
+            base.TakeDamage(damage, source);
+        }
+
+        
+    }
+
     public void ChangeState(IEnemyState newState)
     {
         if (currentState != null) 
@@ -103,7 +128,7 @@ public class Enemy : NPC
 
     public void SetTarget(Transform target)
     {
-        if(Target == null)
+        if(Target == null && !(currentState is EvadeState))
         {
             float distance = Vector2.Distance(transform.position, target.position);
 
@@ -117,6 +142,7 @@ public class Enemy : NPC
     {
         this.Target = null;
         this.AggroRange = initAggroRange;
+        this.health.MyCurrentValue = this.health.MyMaxValue;
 
         //reset health values
     }
