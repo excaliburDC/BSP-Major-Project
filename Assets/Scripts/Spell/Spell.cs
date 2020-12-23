@@ -10,9 +10,12 @@ public class Spell
     [SerializeField]
     private int damage;
     [SerializeField]
+    private int manaCost;
+    [SerializeField]
     private GameObject spellPrefab;
 
     public string Name { get => name;  }
     public int Damage { get => damage;  }
     public GameObject SpellPrefab { get => spellPrefab;  }
+    public int ManaCost { get => manaCost; }
 }

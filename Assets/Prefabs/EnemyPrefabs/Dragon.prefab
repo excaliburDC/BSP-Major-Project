@@ -170,12 +170,13 @@ MonoBehaviour:
   health: {fileID: 893670485885051886}
   maxHealth: 50
   hitBox: {fileID: 6304820105357809209}
-  color: {fileID: 0}
-  attackRange: 1
+  attackRange: 3
   initAggroRange: 3
   attackTime: 0
   healthGroup: {fileID: 8909206056614297461}
-  enemyAttackPrefab: {fileID: 0}
+  enemyAttackPrefab: {fileID: 2625391779395330543, guid: 669365cb2b91b0f40b57c07c6b96bf15,
+    type: 3}
+  enemyAttackDmg: 10
 --- !u!1 &75171382621339863
 GameObject:
   m_ObjectHideFlags: 0

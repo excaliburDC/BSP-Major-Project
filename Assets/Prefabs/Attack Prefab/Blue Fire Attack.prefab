@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 2625391779395330540}
   - component: {fileID: 2625391779395330541}
   - component: {fileID: 2625391779395330542}
+  - component: {fileID: 3022407551441780670}
   - component: {fileID: -4242039436976270154}
-  - component: {fileID: -4336916202894705810}
+  - component: {fileID: -6966337887789886440}
   m_Layer: 0
   m_Name: Blue Fire Attack
   m_TagString: Untagged
@@ -103,6 +104,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &3022407551441780670
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2625391779395330543}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.52, y: 0.55}
+    newSize: {x: 1.52, y: 0.55}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.52, y: 0.55}
+  m_EdgeRadius: 0
 --- !u!50 &-4242039436976270154
 Rigidbody2D:
   serializedVersion: 4
@@ -124,7 +151,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-4336916202894705810
+--- !u!114 &-6966337887789886440
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,7 +160,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2625391779395330543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f796e0077e16f244bbcad17934856ed, type: 3}
+  m_Script: {fileID: 11500000, guid: b3d84b51e73775f428428394de5e6f0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 3

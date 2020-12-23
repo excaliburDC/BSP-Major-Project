@@ -383,7 +383,7 @@ Transform:
   - {fileID: 2728609276357270444}
   - {fileID: 2402489285910333609}
   m_Father: {fileID: 6955487278883251758}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1889324282434402667
 GameObject:
@@ -584,7 +584,7 @@ Transform:
   - {fileID: 3726437443818913916}
   - {fileID: 6586101678626456736}
   m_Father: {fileID: 6955487278883251758}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6206952201699281649
 GameObject:
@@ -649,7 +649,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6955487279777302565}
   - {fileID: 1395564585892544306}
   - {fileID: 6780960077810127485}
   m_Father: {fileID: 0}
@@ -715,10 +714,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.006067604, y: -0.047652036}
+  m_Offset: {x: -0.009974778, y: -0.085101366}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -729,7 +728,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.79663223, y: 1.631103}
+  m_Size: {x: 0.61481977, y: 0.9570155}
   m_EdgeRadius: 0
 --- !u!50 &6955487278883251756
 Rigidbody2D:
@@ -786,14 +785,17 @@ MonoBehaviour:
   spells:
   - name: FireLion
     damage: 10
+    manaCost: 50
     spellPrefab: {fileID: 6860202871173429498, guid: d27ca663ea5c67f4790a75ab34cf3eeb,
       type: 3}
   - name: IceBurst
     damage: 5
+    manaCost: 20
     spellPrefab: {fileID: 9125803431614384292, guid: 81616e5b7fe5c504a9e2cea1f6b6e0c7,
       type: 3}
   - name: ThunderShower
     damage: 10
+    manaCost: 30
     spellPrefab: {fileID: 5360590186828053163, guid: 8e9d4d64aa720e34f9a21653359cbfa5,
       type: 3}
 --- !u!114 &6955487278883251744
@@ -812,10 +814,8 @@ MonoBehaviour:
   health: {fileID: 0}
   maxHealth: 100
   hitBox: {fileID: 6955487278883251758}
-  Bar2: {fileID: 0}
-  maxThirst: 50
-  spellPrefab:
-  - {fileID: 7895490715797043769, guid: 6f6e8d06d14bf3c459838cf437861ed8, type: 3}
+  mana: {fileID: 0}
+  maxMana: 100
   ExitPoints:
   - {fileID: 8224996979721738715}
   - {fileID: 510984989544958810}
@@ -830,73 +830,3 @@ MonoBehaviour:
     second: {fileID: 337206424733203546}
   - first: {fileID: 2225188421771235219}
     second: {fileID: 1150813154798781191}
---- !u!1 &6955487279777302564
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6955487279777302565}
-  - component: {fileID: 6955487279777302562}
-  - component: {fileID: 6955487279777302563}
-  m_Layer: 0
-  m_Name: LayerSorter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6955487279777302565
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6955487279777302564}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6955487278883251758}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &6955487279777302562
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6955487279777302564}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.006378174, y: -0.19666672}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.6403961, y: 0.72037506}
-  m_EdgeRadius: 0
---- !u!114 &6955487279777302563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6955487279777302564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2274788f22205d4287ea476382ccf16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

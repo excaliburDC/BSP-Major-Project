@@ -15,10 +15,12 @@ public class Enemy : NPC
     private CanvasGroup healthGroup;
     [SerializeField]
     private GameObject enemyAttackPrefab;
+    [SerializeField]
+    private int enemyAttackDmg;
 
 
     private IEnemyState currentState;
-    
+     
     
 
     private bool reachedPathEnd = false;
@@ -57,8 +59,13 @@ public class Enemy : NPC
 
     public GameObject EnemyAttackPrefab 
     { 
-        get => enemyAttackPrefab; 
+        get =>  Instantiate(enemyAttackPrefab,transform.position,Quaternion.identity); 
         private set => enemyAttackPrefab = value; 
+    }
+    public int EnemyAttackDmg 
+    { 
+        get => enemyAttackDmg; 
+        set => enemyAttackDmg = value; 
     }
 
     protected void Awake()

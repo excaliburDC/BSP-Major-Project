@@ -21,8 +21,6 @@ public abstract class Character : MonoBehaviour
     [SerializeField]
     protected Transform hitBox;
 
-    
-    public FlashColor color;
 
     public Animator  MyAnimator
     {
@@ -83,9 +81,6 @@ public abstract class Character : MonoBehaviour
         myRB = GetComponent<Rigidbody2D>();
         
         MyAnimator = GetComponent<Animator>();
-
-        color = GetComponent<FlashColor>();
-    
 
         MyHealthBar.Initialize(maxHealth, maxHealth);
 

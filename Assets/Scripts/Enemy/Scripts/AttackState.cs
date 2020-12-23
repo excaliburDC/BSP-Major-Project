@@ -52,9 +52,16 @@ public class AttackState : IEnemyState
     {
         parent.IsAttacking = true;
 
-        parent.MyAnimator.SetTrigger("attack");
+        // parent.MyAnimator.SetTrigger("attack");
 
-        yield return new WaitForSeconds(parent.MyAnimator.GetCurrentAnimatorStateInfo(2).length);
+
+
+        EnemyAttackMovement e = parent.EnemyAttackPrefab.GetComponent<EnemyAttackMovement>();
+
+        e.InitTarget(parent.Target, parent.EnemyAttackDmg, parent.transform);
+
+
+        yield return new WaitForSeconds(0.5f);
 
         parent.IsAttacking = false;
     }

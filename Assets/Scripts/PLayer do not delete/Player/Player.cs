@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,11 +7,20 @@ public class Player : Character
 {
     
     [SerializeField]
-    private Stats Bar2;
+    private Stats mana;
    
     [SerializeField]
-    private float maxThirst;
+    private float maxMana;
 
+    public bool IsManaAvailable
+    {
+        get
+        {
+            return mana.MyCurrentValue > 0;
+        }
+    }
+
+    
    
     private static Player instance;
     public static Player MyInstance
@@ -37,7 +47,7 @@ public class Player : Character
     protected override void Start()
     {
         spellBook = GetComponent<SpellBook>();
-        Bar2.Initialize(maxThirst, maxThirst);
+        mana.Initialize(maxMana, maxMana);
         base.Start();      
     }
     protected override void Update()
@@ -47,9 +57,22 @@ public class Player : Character
        // InLineOfSight();
         base.Update(); 
         
+        if(!IsManaAvailable)
+        {
+            StartCoroutine(ResetMana());
+        }
 
     }
-  
+
+    private IEnumerator ResetMana()
+    {
+        yield return new WaitForSeconds(3f);
+
+        this.mana.MyCurrentValue += 20;
+
+       
+    }
+
     private void  GetInput()
     {
         Direction = Vector2.zero;
@@ -59,12 +82,12 @@ public class Player : Character
         if (Input.GetKeyDown(KeyCode.O))
         {
             MyHealthBar.MyCurrentValue -= 10;
-            Bar2.MyCurrentValue -= 10;
+            mana.MyCurrentValue -= 10;
         }
         if (Input.GetKeyDown(KeyCode.P))
         {
             MyHealthBar.MyCurrentValue += 10;
-            Bar2.MyCurrentValue += 10;
+            mana.MyCurrentValue += 10;
         }
         if (Input.GetKey(KeyCode.W))//up
         {
@@ -90,6 +113,8 @@ public class Player : Character
         {
             
         }
+
+        
     }
 
     //Attack Animations
@@ -102,6 +127,7 @@ public class Player : Character
         IsAttacking = true;
         MyAnimator.SetBool("attack", IsAttacking);
 
+        mana.MyCurrentValue -= newSpell.ManaCost;
 
 
         //for testing purposes
@@ -148,11 +174,17 @@ public class Player : Character
         StopAttack();
     }
 
+    public override void TakeDamage(float damage, Transform source)
+    {
+       
+        base.TakeDamage(damage, source);
+    }
+
     public void CastSpell(int spellIndex)
     {
         Block();
 
-        if (Target != null && Target.GetComponentInParent<Character>().IsAlive && !IsAttacking && !IsMoving && InLineOfSight())
+        if (Target != null && Target.GetComponentInParent<Character>().IsAlive && !IsAttacking && !IsMoving && InLineOfSight() && IsManaAvailable)
         {
             attackCoroutine = StartCoroutine(Attack(spellIndex));
         }
