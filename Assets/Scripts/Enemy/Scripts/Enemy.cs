@@ -116,9 +116,15 @@ public class Enemy : NPC
             SetTarget(source);
 
             base.TakeDamage(damage, source);
+
+            if (!IsAlive)
+            {
+                healthGroup.alpha = 0;
+            }
+
         }
 
-        
+
     }
 
     public void ChangeState(IEnemyState newState)

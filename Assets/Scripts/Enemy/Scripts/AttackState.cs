@@ -19,9 +19,9 @@ public class AttackState : IEnemyState
 
     public void UpdateState()
     {
-       
+        
 
-        if (parent.AttackTime>=attackCoolDown && !parent.IsAttacking)
+        if (parent.AttackTime>=attackCoolDown && !parent.IsAttacking && parent.Target.GetComponent<Player>().IsAlive)
         {
             parent.AttackTime = 0;
 
@@ -44,7 +44,10 @@ public class AttackState : IEnemyState
 
         else
         {
-            parent.ChangeState(new IdleState());
+            
+           parent.ChangeState(new IdleState());
+            
+            
         }
     }
 
@@ -52,14 +55,23 @@ public class AttackState : IEnemyState
     {
         parent.IsAttacking = true;
 
-        // parent.MyAnimator.SetTrigger("attack");
+        if (parent.transform.name != "Dragon")
+        {
+            parent.MyAnimator.SetTrigger("attack");
 
+            Player p = parent.Target.GetComponent<Player>();
 
+            p.TakeDamage(parent.EnemyAttackDmg, parent.transform);
 
-        EnemyAttackMovement e = parent.EnemyAttackPrefab.GetComponent<EnemyAttackMovement>();
+            yield return new WaitForSeconds(parent.MyAnimator.GetCurrentAnimatorStateInfo(2).length);
+        }
+        
+        else
+        {
+            EnemyAttackMovement e = parent.EnemyAttackPrefab.GetComponent<EnemyAttackMovement>();
 
-        e.InitTarget(parent.Target, parent.EnemyAttackDmg, parent.transform);
-
+            e.InitTarget(parent.Target, parent.EnemyAttackDmg, parent.transform);
+        }
 
         yield return new WaitForSeconds(0.5f);
 

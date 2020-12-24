@@ -169,6 +169,7 @@ public abstract class Character : MonoBehaviour
             Direction = Vector2.zero;
             myRB.velocity = direction;
             //die
+     
             MyAnimator.SetTrigger("die");
         }
     }
