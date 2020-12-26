@@ -8,6 +8,7 @@ public class Collectables : MonoBehaviour
     public int bagSize;
     private bool IsAdded = false;
     public void OnTriggerEnter2D(Collider2D collision)
+    //public void OnCollisionEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
