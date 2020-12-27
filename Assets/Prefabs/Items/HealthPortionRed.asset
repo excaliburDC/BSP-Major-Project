@@ -17,4 +17,5 @@ MonoBehaviour:
   objType: RedPortion
   title: RedPortion
   quality: 1
-  health: 10
+  health: 40
+  typehealth: 2

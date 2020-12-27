@@ -18,3 +18,4 @@ MonoBehaviour:
   title: BluePortion
   quality: 3
   health: 30
+  typehealth: 1

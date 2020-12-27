@@ -8,14 +8,28 @@ public class HealthPortion : Item, IUseable
      
     [SerializeField]
     private int health;
-    
+    [SerializeField]
+    private int typehealth;
     public void Use()
     {
-        if (Player.MyInstance.MyHealthBar.MyCurrentValue < Player.MyInstance.MyHealthBar.MyMaxValue)
+        if(typehealth == 1)//player magic
         {
-            Remove();
-            Player.MyInstance.MyHealthBar.MyCurrentValue += health;
+            if (Player.MyInstance.MyManaBar.MyCurrentValue < Player.MyInstance.MyManaBar.MyMaxValue)
+            {
+                Remove();
+                Player.MyInstance.MyManaBar.MyCurrentValue += health;
+            }
         }
+        else if(typehealth == 2)//player blood
+
+        {
+            if (Player.MyInstance.MyHealthBar.MyCurrentValue < Player.MyInstance.MyHealthBar.MyMaxValue)
+            {
+                Remove();
+                Player.MyInstance.MyHealthBar.MyCurrentValue += health;
+            }
+        }
+        
     }
     public override string GetDescription()
     {

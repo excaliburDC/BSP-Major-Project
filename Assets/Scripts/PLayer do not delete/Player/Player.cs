@@ -16,7 +16,7 @@ public class Player : Character
     {
         get
         {
-            return mana.MyCurrentValue > 0;
+            return MyManaBar.MyCurrentValue > 0;
         }
     }
 
@@ -35,6 +35,7 @@ public class Player : Character
         }
     }
 
+    public Stats MyManaBar { get => mana; set => mana = value; }
 
     [SerializeField]
     private Transform[] ExitPoints;
@@ -47,7 +48,7 @@ public class Player : Character
     protected override void Start()
     {
         spellBook = GetComponent<SpellBook>();
-        mana.Initialize(maxMana, maxMana);
+        MyManaBar.Initialize(maxMana, maxMana);
         base.Start();      
     }
     protected override void Update()
@@ -68,7 +69,7 @@ public class Player : Character
     {
         yield return new WaitForSeconds(3f);
 
-        this.mana.MyCurrentValue += 20;
+        this.MyManaBar.MyCurrentValue += 20;
 
        
     }
@@ -82,29 +83,29 @@ public class Player : Character
         if (Input.GetKeyDown(KeyCode.O))
         {
             MyHealthBar.MyCurrentValue -= 10;
-            mana.MyCurrentValue -= 10;
+            MyManaBar.MyCurrentValue -= 10;
         }
         if (Input.GetKeyDown(KeyCode.P))
         {
             MyHealthBar.MyCurrentValue += 10;
-            mana.MyCurrentValue += 10;
+            MyManaBar.MyCurrentValue += 10;
         }
-        if (Input.GetKey(KeyCode.W))//up
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))//up
         {
             ExitIndex = 0;
             Direction += Vector2.up;           
         }
-        if (Input.GetKey(KeyCode.A))//left
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))//left
         {
             ExitIndex = 2;
             Direction += Vector2.left;           
         }
-        if (Input.GetKey(KeyCode.S))//down
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))//down
         {
             ExitIndex = 1;
             Direction += Vector2.down;
         }
-        if (Input.GetKey(KeyCode.D))//right
+        if (Input.GetKey(KeyCode.D)||Input.GetKey(KeyCode.RightArrow))//right
         {
             ExitIndex = 3;
             Direction += Vector2.right;
@@ -127,7 +128,7 @@ public class Player : Character
         IsAttacking = true;
         MyAnimator.SetBool("attack", IsAttacking);
 
-        mana.MyCurrentValue -= newSpell.ManaCost;
+        MyManaBar.MyCurrentValue -= newSpell.ManaCost;
 
 
         //for testing purposes
@@ -140,22 +141,26 @@ public class Player : Character
 
         SpellsScript s;
 
-        if(currentTarget!=null && InLineOfSight())
+        if(currentTarget!=null && InLineOfSight() && MyManaBar.MyCurrentValue > 10 && MyHealthBar.MyCurrentValue!=0)
         {
             if (spellIndex == 0)
             {
+              
+                MyManaBar.MyCurrentValue -= 10;
                 s = Instantiate(newSpell.SpellPrefab, currentTarget.position, Quaternion.identity).GetComponent<SpellsScript>();
                 s.InitTarget(currentTarget, newSpell.Damage,transform);
             }
 
             if (spellIndex == 1)
             {
+                MyManaBar.MyCurrentValue -= 10;
                 s = Instantiate(newSpell.SpellPrefab, currentTarget.position - new Vector3(0f, 0.2f, 0f), Quaternion.identity).GetComponent<SpellsScript>();
                 s.InitTarget(currentTarget, newSpell.Damage,transform);
             }
 
             else if (spellIndex == 2)
             {
+                MyManaBar.MyCurrentValue -= 10;
                 s = Instantiate(newSpell.SpellPrefab, currentTarget.position - new Vector3(0f, -0.5f, 0f), Quaternion.identity).GetComponent<SpellsScript>();
                 s.InitTarget(currentTarget, newSpell.Damage,transform);
             }
@@ -184,7 +189,7 @@ public class Player : Character
     {
         Block();
 
-        if (Target != null && Target.GetComponentInParent<Character>().IsAlive && !IsAttacking && !IsMoving && InLineOfSight() && IsManaAvailable && !IsAlive)
+        if (Target != null && Target.GetComponentInParent<Character>().IsAlive && !IsAttacking && !IsMoving && InLineOfSight() && IsManaAvailable )
         {
             attackCoroutine = StartCoroutine(Attack(spellIndex));
         }
