@@ -184,7 +184,7 @@ public class Player : Character
     {
         Block();
 
-        if (Target != null && Target.GetComponentInParent<Character>().IsAlive && !IsAttacking && !IsMoving && InLineOfSight() && IsManaAvailable)
+        if (Target != null && Target.GetComponentInParent<Character>().IsAlive && !IsAttacking && !IsMoving && InLineOfSight() && IsManaAvailable && !IsAlive)
         {
             attackCoroutine = StartCoroutine(Attack(spellIndex));
         }
