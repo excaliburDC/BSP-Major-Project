@@ -11,7 +11,8 @@ public class Player : Character
    
     [SerializeField]
     private float maxMana;
-
+    [SerializeField]
+    private GameObject GameOverPopUp;
     public bool IsManaAvailable
     {
         get
@@ -53,6 +54,10 @@ public class Player : Character
     }
     protected override void Update()
     {
+        if(!IsAlive)
+        {
+            GameOverPopUp.SetActive(true);
+        }
         GetInput();
         //Debug.Log(LayerMask.GetMask("Block"));
        // InLineOfSight();
@@ -90,30 +95,34 @@ public class Player : Character
             MyHealthBar.MyCurrentValue += 10;
             MyManaBar.MyCurrentValue += 10;
         }
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))//up
+        if(IsAlive)
         {
-            ExitIndex = 0;
-            Direction += Vector2.up;           
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))//up
+            {
+                ExitIndex = 0;
+                Direction += Vector2.up;
+            }
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))//left
+            {
+                ExitIndex = 2;
+                Direction += Vector2.left;
+            }
+            if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))//down
+            {
+                ExitIndex = 1;
+                Direction += Vector2.down;
+            }
+            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))//right
+            {
+                ExitIndex = 3;
+                Direction += Vector2.right;
+            }
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+
+            }
         }
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))//left
-        {
-            ExitIndex = 2;
-            Direction += Vector2.left;           
-        }
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))//down
-        {
-            ExitIndex = 1;
-            Direction += Vector2.down;
-        }
-        if (Input.GetKey(KeyCode.D)||Input.GetKey(KeyCode.RightArrow))//right
-        {
-            ExitIndex = 3;
-            Direction += Vector2.right;
-        }
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            
-        }
+       
 
         
     }
