@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        SceneManager.LoadScene("cutscene1");
+        SceneManager.LoadScene("Opening Cutscene");
     }
 
     public void QuitGame()

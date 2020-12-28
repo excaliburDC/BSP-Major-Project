@@ -7,6 +7,8 @@ TagManager:
   - Obstracle
   - Enemy
   - HitBox
+  - Dragon
+  - Zombie
   layers:
   - Default
   - TransparentFX

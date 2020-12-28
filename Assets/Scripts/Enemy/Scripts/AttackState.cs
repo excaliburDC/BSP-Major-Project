@@ -55,7 +55,7 @@ public class AttackState : IEnemyState
     {
         parent.IsAttacking = true;
 
-        if (parent.transform.name != "Dragon")
+        if (parent.transform.tag != "Dragon")
         {
             parent.MyAnimator.SetTrigger("attack");
 
@@ -66,9 +66,12 @@ public class AttackState : IEnemyState
             yield return new WaitForSeconds(parent.MyAnimator.GetCurrentAnimatorStateInfo(2).length);
         }
         
-        else
+        else 
         {
             EnemyAttackMovement e = parent.EnemyAttackPrefab.GetComponent<EnemyAttackMovement>();
+
+
+            Debug.Log("Dragon Attack");
 
             e.InitTarget(parent.Target, parent.EnemyAttackDmg, parent.transform);
         }

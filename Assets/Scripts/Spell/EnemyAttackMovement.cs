@@ -22,6 +22,8 @@ public class EnemyAttackMovement : MonoBehaviour
     void Start()
     {
         MyRigidBody = GetComponent<Rigidbody2D>();
+
+        Invoke("DestroyAttack", 5f);
     }
 
 
@@ -67,6 +69,11 @@ public class EnemyAttackMovement : MonoBehaviour
         }
 
 
+    }
+
+    void DestroyAttack()
+    {
+        Destroy(gameObject);
     }
 
 }
