@@ -9,12 +9,13 @@ public class TilelineManager : MonoBehaviour
     public Animator playerAnimator;
     public RuntimeAnimatorController playerAnim;
     public PlayableDirector director;
-
+   
     // Start is called before the first frame update
     void OnEnable()
     {
         playerAnim = playerAnimator.runtimeAnimatorController;
         playerAnimator.runtimeAnimatorController = null;
+       
 
     }
 
@@ -23,7 +24,12 @@ public class TilelineManager : MonoBehaviour
     {
         if (fix)
         {
-            SceneManager.LoadScene("Level1");
+            if(SceneManager.GetActiveScene().name == "Opening Cutscene")
+            {
+                SceneManager.LoadScene("Level1");
+            }
+            
+
         }
         if(director.state != PlayState.Playing)
         {
