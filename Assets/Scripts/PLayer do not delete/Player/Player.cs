@@ -13,6 +13,8 @@ public class Player : Character
     private float maxMana;
     [SerializeField]
     private GameObject GameOverPopUp;
+    [SerializeField]
+    private GameObject GameComplete;
     public bool IsManaAvailable
     {
         get
@@ -50,7 +52,10 @@ public class Player : Character
     {
         spellBook = GetComponent<SpellBook>();
         MyManaBar.Initialize(maxMana, maxMana);
-        base.Start();      
+        base.Start();
+       
+        GameComplete.SetActive(false);
+        GameOverPopUp.SetActive(false);
     }
     protected override void Update()
     {
@@ -122,9 +127,12 @@ public class Player : Character
 
             }
         }
-       
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            GameComplete.SetActive(true);
+        }
 
-        
+
     }
 
     //Attack Animations

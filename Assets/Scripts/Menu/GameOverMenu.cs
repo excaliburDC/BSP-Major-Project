@@ -19,10 +19,10 @@ public class GameOverMenu : MonoBehaviour
     }
     public void Ending1()
     {
-        //SceneManager.LoadScene("Cutscene1");//ending 1
+        SceneManager.LoadScene("Ending 1");//ending 1
     }
     public void Ending2()
     {
-        //SceneManager.LoadScene("Cutscene2");//ending 2
+        SceneManager.LoadScene("Ending 2");//ending 2
     }
 }
